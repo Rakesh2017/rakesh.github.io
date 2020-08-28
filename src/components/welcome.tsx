@@ -17,55 +17,52 @@ const Welcome = () => {
 
       {/* experience */}
       <div className="expertise-con">
-        {/* 1 */}
-        <div className="expertise-one-con expertise-main-con">
-          <h5 className="title">Area of Experience</h5>
-        </div>
-        <div className="info-con">
-          <div>
-            <img src="" alt="" />
-          </div>
-          <h6 className="title-h6">web development</h6>
-          <p className="info-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            totam sapiente, harum doloremque omnis, excepturi sit cumque, iusto
-            deserunt minima voluptatem sequi in enim natus quia velit
-            consequatur magnam iure.
-          </p>
+        <div>
+          <h4 className="title-h4">Area of Experience</h4>
         </div>
 
-        {/* 2 */}
-        <div className="expertise-two-con expertise-main-con">
-          <h5 className="title">Area of Experience</h5>
-        </div>
-        <div className="info-con">
-          <div>
-            <img src="" alt="" />
+        <div className="expertise-main-con">
+          {/* 1 */}
+          <div className="expertise-one-con info-con">
+            <div className="image-con">
+              <i className="fas fa-pager"></i>
+            </div>
+            <h5 className="title-h5">Website Development</h5>
+            <p className="info-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              totam sapiente, harum doloremque omnis, excepturi sit cumque,
+              iusto deserunt minima voluptatem sequi in enim natus quia velit
+              consequatur magnam iure.
+            </p>
           </div>
-          <h6 className="title-h6">web development</h6>
-          <p className="info-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            totam sapiente, harum doloremque omnis, excepturi sit cumque, iusto
-            deserunt minima voluptatem sequi in enim natus quia velit
-            consequatur magnam iure.
-          </p>
-        </div>
 
-        {/* 3 */}
-        <div className="expertise-three-con expertise-main-con">
-          <h5 className="title">Area of Experience</h5>
-        </div>
-        <div className="info-con">
-          <div>
-            <img src="" alt="" />
+          {/* 2 */}
+          <div className="expertise-two-con info-con">
+            <div className="image-con">
+              <i className="fab fa-android"></i>
+            </div>
+            <h5 className="title-h5">Android Application Development</h5>
+            <p className="info-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              totam sapiente, harum doloremque omnis, excepturi sit cumque,
+              iusto deserunt minima voluptatem sequi in enim natus quia velit
+              consequatur magnam iure.
+            </p>
           </div>
-          <h6 className="title-h6">web development</h6>
-          <p className="info-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            totam sapiente, harum doloremque omnis, excepturi sit cumque, iusto
-            deserunt minima voluptatem sequi in enim natus quia velit
-            consequatur magnam iure.
-          </p>
+
+          {/* 3 */}
+          <div className="expertise-three-con info-con">
+            <div className="image-con">
+              <i className="fab fa-wordpress"></i>
+            </div>
+            <h5 className="title-h5">WordPress</h5>
+            <p className="info-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              totam sapiente, harum doloremque omnis, excepturi sit cumque,
+              iusto deserunt minima voluptatem sequi in enim natus quia velit
+              consequatur magnam iure.
+            </p>
+          </div>
         </div>
       </div>
       {/* experience [ENDS] */}

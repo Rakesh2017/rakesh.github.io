@@ -1,47 +1,10 @@
-// Theme colors
-$color__green-light: #66bc39;
-$color__green-dark: #0d9473;
-$color__grey-light: #dddddd;
-$color__grey-dark: #444444;
+$color-blue: #9fc8d8;
+$color-black: black;
+$color-yellow: #fff700;
 
-// Dalbir colors
-$color__green-light2: #effcfa;
-// $color__green-medium:#008060;
-$color__green-screen: #0d9473;
-$color__green-dark2: #008060;
-$color__grey-new: #d2d5d9;
-
-//Backgrounds
-$color__background-input: #effcfa;
-$color__background-screen: #008060;
-$color__background-footer: #effcfa76;
-$color__background-button: #13b293;
-$color__background-button-hover: #04604e;
-
-//Text
-$color__text-main: #262f2d;
-$color__text-footer: brown;
-$color__text-header: #002e25;
-// $color__text-hover:
-$color__text-input: #476961;
-$color__text-input-focus: #2a5148;
-
-// Links
-$color__link: #002e25;
-$color__link-visited: #002e25;
-$color__link-hover: #046e58;
-// $color__link-footer:
-// $color__link-hover-footer:
-
-// Borders
-$color__border-grey: #d2d5d9;
-$color__border-green: #008060;
-$color__border-button: #13b293;
-$color__border-input: #13b293;
-
-$font__body: "Source Sans Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-$font__heading: "Source Serif Pro", Cambria, Cochin, Georgia, "Times New Roman",
-  Times, serif;
+$font-paragraph: "Montserrat", sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+$font-heading: "Open Sans", sans-serif, Cambria, Cochin, Georgia,
+  "Times New Roman", Times, serif;
 
 $font__size-xs: 1rem / 1.3;
 $font__size-sm: 1rem / 1.15;
@@ -53,3 +16,6 @@ $font__size-xxxl: 1rem * 2;
 
 $font__line-height-body: 1.5;
 $font__line-height-heading: 1.4;
+
+$container-top-padding: 2rem;
+$container-side-mobile-padding: 0.825rem;

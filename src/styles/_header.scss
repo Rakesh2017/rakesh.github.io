@@ -1,0 +1,45 @@
+// header
+.header-con {
+  background-color: $color-black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 225px;
+  align-items: center;
+  justify-content: center;
+
+  .designation-h1 {
+    text-transform: capitalize;
+    margin-bottom: 0;
+    span {
+      font-weight: 400;
+    }
+  }
+
+  .name-con {
+    text-align: center;
+    .name-h3 {
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+  }
+
+  //  social links nav
+  .social-links-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    .icon-link {
+      margin-left: 1rem;
+    }
+    .fab {
+      color: $color-blue;
+      font-size: 1.5rem;
+    }
+  }
+}

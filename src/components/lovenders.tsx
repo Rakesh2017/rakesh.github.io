@@ -2,14 +2,14 @@ import React from "react";
 
 const Lovenders = () => {
   return (
-    <div className="lovenders-con">
+    <div className="lovenders-con featured-work-subject-con">
       <div className="image-con">
         <img src="" alt="" />
       </div>
       <div className="info-con">
         <h4 className="title-h4">Lovenders</h4>
         <a className="website-link-a" href="https://www.lovenders.com">
-          lovenders.com
+          &nbsp;www.lovenders.com
         </a>
         <p className="info-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea
@@ -18,12 +18,14 @@ const Lovenders = () => {
           cupiditate corrupti neque.
         </p>
         <nav className="tags-nav">
-          <li>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-          </li>
+          <ul>
+            <li>Java</li>
+            <li>Firebase</li>
+            <li>PHP</li>
+            <li>REST API</li>
+            <li>GCF</li>
+            <li>XML</li>
+          </ul>
         </nav>
       </div>
     </div>
