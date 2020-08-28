@@ -7,7 +7,7 @@ import Footer from "../src/components/footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App super-parent-con">
       {/* header */}
       <Header />
       {/* hero section */}

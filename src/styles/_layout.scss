@@ -1,0 +1,135 @@
+/* MOBILE VIEW */
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
+// grid layout to root div tag
+.super-parent-con {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+}
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
+// welcome part
+
+.welcome-con {
+  display: flex;
+  flex-direction: column;
+  .about-me-con,
+  .expertise-con {
+    margin-top: $container-top-padding;
+    margin-left: $container-side-mobile-padding;
+    margin-right: $container-side-mobile-padding;
+  }
+
+  .about-me-con {
+    .title-h4 {
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .info-p {
+      margin-top: $container-top-padding;
+    }
+  }
+
+  .expertise-con {
+    .title-h4 {
+      text-transform: capitalize;
+      color: gray;
+      text-align: center;
+    }
+    .expertise-main-con {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      margin-top: $container-top-padding;
+      .info-con {
+        border: solid 1px gray;
+        border-radius: 0.175rem;
+        .image-con {
+          max-width: 32px;
+          height: auto;
+          margin: auto;
+          i {
+            font-size: 2rem;
+            color: $color-blue;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+          }
+        }
+        .title-h5 {
+          text-align: center;
+        }
+        .info-p {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
+// featured work
+
+.featured-work-con {
+  background-color: #f5f5f5;
+  margin-top: $container-top-padding;
+  padding-bottom: $container-top-padding;
+  .featured-work-title-con {
+    padding-top: $container-top-padding;
+    text-align: center;
+  }
+  .featured-work-subject-con {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    .info-con {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      .website-link-a {
+        text-decoration: none;
+        color: $color-blue;
+        font-size: 0.9rem;
+      }
+      .website-link-a::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        content: "\f0ac";
+      }
+      .info-p {
+        margin-top: 1rem;
+      }
+      .tags-nav {
+        margin-top: 0.5rem;
+        ul {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          padding: 0;
+          justify-content: flex-end;
+          li {
+            margin-left: 0.3rem;
+            font-size: 0.8rem;
+            padding: 0.1rem 0.2rem 0.1rem;
+            border-radius: 0.2rem;
+            background-color: $color-blue;
+            margin-top: 0.3rem;
+          }
+          li:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
