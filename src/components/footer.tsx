@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer-con">
-      <h4>hire Me</h4>
+      <h4 className="title-h4">hire Me</h4>
       <nav className="contact-links-nav">
         <ul>
           <li>
