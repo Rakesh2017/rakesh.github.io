@@ -1,9 +1,29 @@
 .footer-con {
   background-color: $color-yellow;
   margin-top: $container-top-padding;
-  .title-h4 {
-    text-align: center;
+  .title-con {
+    margin-top: $container-top-padding;
+    .title-h3 {
+      text-align: center;
+    }
   }
+
   .contact-links-nav {
+    margin-top: $container-top-padding;
+    margin-bottom: $container-top-padding;
+    display: flex;
+    justify-content: center;
+    ul {
+      list-style-type: none;
+      li:hover a {
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.825rem;
+        color: gray;
+      }
+    }
   }
 }
