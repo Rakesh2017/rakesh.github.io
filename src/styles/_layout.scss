@@ -52,15 +52,11 @@
         border: solid 1px gray;
         border-radius: 0.175rem;
         .image-con {
-          max-width: 32px;
+          max-width: 92px;
           height: auto;
           margin: auto;
-          i {
-            font-size: 2rem;
-            color: $color-blue;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-          }
+          padding-top: 2rem;
+          padding-bottom: 2rem;
         }
         .title-h5 {
           text-align: center;

@@ -1,4 +1,7 @@
 import React from "react";
+import icon1 from "../images/icon1.png";
+import icon2 from "../images/icon2.png";
+import icon3 from "../images/icon3.png";
 
 const Welcome = () => {
   return (
@@ -25,7 +28,7 @@ const Welcome = () => {
           {/* 1 */}
           <div className="expertise-one-con info-con">
             <div className="image-con">
-              <i className="fas fa-pager"></i>
+              <img src={icon1} alt="" />
             </div>
             <h5 className="title-h5">Website Development</h5>
             <p className="info-p">
@@ -39,7 +42,7 @@ const Welcome = () => {
           {/* 2 */}
           <div className="expertise-two-con info-con">
             <div className="image-con">
-              <i className="fab fa-android"></i>
+              <img src={icon2} alt="" />
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
@@ -53,7 +56,7 @@ const Welcome = () => {
           {/* 3 */}
           <div className="expertise-three-con info-con">
             <div className="image-con">
-              <i className="fab fa-wordpress"></i>
+              <img src={icon3} alt="" />
             </div>
             <h5 className="title-h5">WordPress</h5>
             <p className="info-p">
