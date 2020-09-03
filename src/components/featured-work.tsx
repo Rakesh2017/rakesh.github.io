@@ -6,9 +6,10 @@ const FeaturedWork = () => {
   return (
     <div className="featured-work-con">
       <div className="featured-work-title-con">
-        <h4 className="featured-work-h4">Featured Work</h4>
+        <h3 className="featured-work-h3">Featured Work</h3>
       </div>
       <CarbonPrint />
+      <hr className="divider-hr" />
       <Lovenders />
     </div>
   );

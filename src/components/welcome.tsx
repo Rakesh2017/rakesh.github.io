@@ -1,7 +1,7 @@
 import React from "react";
-import icon1 from "../images/icon1.png";
-import icon2 from "../images/icon2.png";
-import icon3 from "../images/icon3.png";
+import icon1 from "../images/icons/icon1.png";
+import icon2 from "../images/icons/icon2.png";
+import icon3 from "../images/icons/icon3.png";
 
 const Welcome = () => {
   return (
