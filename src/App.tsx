@@ -11,7 +11,7 @@ function App() {
       {/* header */}
       <Header />
       {/* hero section */}
-      <main>
+      <main className="main-con">
         {/* welcome | about me | my expertise */}
         <section>
           <Welcome />
