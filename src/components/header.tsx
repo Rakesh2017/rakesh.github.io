@@ -23,6 +23,10 @@ const Header = () => {
           <div className="name-con">
             <h3 className="name-h3">rakesh</h3>
           </div>
+          {/* email */}
+          <div className="email-con">
+            <p className="email-p">rakesh22717@gmail.com</p>
+          </div>
         </div>
         {/* name and designation BLOCK [ENDS] */}
 

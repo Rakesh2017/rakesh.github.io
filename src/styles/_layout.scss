@@ -48,10 +48,12 @@
     .info-p {
       margin-top: $container-top-padding;
       font-style: italic;
+      padding: 0 0.375rem 0;
       @media only screen and (min-width: $media-query-desktop) {
         max-width: 900px;
         margin: auto;
-        margin-top: $container-top-padding;
+        margin-top: 1rem;
+        text-align: center;
       }
     }
   }
@@ -169,8 +171,15 @@
     }
   }
   .image-con {
+    margin: auto;
     img {
+      max-width: 75%;
       padding: 0 1rem 0;
+      display: flex;
+      margin: auto;
+      @media only screen and (min-width: $media-query-desktop) {
+        max-width: 100%;
+      }
     }
     @media only screen and (min-width: $media-query-desktop) {
       display: flex;
