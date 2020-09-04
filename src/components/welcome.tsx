@@ -10,10 +10,13 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non vero
-          necessitatibus laudantium perferendis esse! Non nesciunt sit ipsum
-          obcaecati consequuntur pariatur. Nisi autem eius nostrum odit, cumque
-          repellat ipsam ab.
+          Hello, I am backend developer living in Vancouver, Canada. After
+          graduation in Computer Sciences, I worked for two years in mobile
+          Application development industry. Last year I decided to pursue Post
+          graduation in Web and mobile Application design and development. As a
+          result currently I am pursuing PG at Langara College, Vancouver,
+          Canada [Will be completed by Dec 2020]. I am open for part-time work
+          in website and android application development.
         </p>
       </div>
       {/* about me  [ENDS]*/}
