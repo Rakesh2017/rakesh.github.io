@@ -26,12 +26,20 @@
       }
     }
 
-    .name-con {
+    .name-con,
+    .email-con {
       text-align: center;
       .name-h3 {
         font-weight: 400;
         text-transform: uppercase;
         line-height: 1;
+      }
+    }
+
+    .email-con {
+      .email-p {
+        font-size: 0.8rem;
+        padding-top: 0.1rem;
       }
     }
 
