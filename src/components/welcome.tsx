@@ -10,13 +10,14 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          Hello, I am backend developer living in Vancouver, Canada. After
-          graduation in Computer Sciences, I worked for two years in mobile
-          Application development industry. Last year I decided to pursue Post
-          graduation in Web and mobile Application design and development. As a
-          result currently I am pursuing PG at Langara College, Vancouver,
-          Canada [Will be completed by Dec 2020]. I am open for part-time work
-          in website and android application development.
+          Hello, I am backend developer living in Vancouver, Canada. I had
+          worked for two years in mobile Application development industry.
+          Currently I am pursuing Post-Graduation in Web and Mobile application
+          design and development at Langara College, Vancouver, Canada [Will be
+          completed by Dec 2020]. <hr className="divider" /> I am open for
+          part-time jobs in <span className="keywords">Website</span> and{" "}
+          <span className="keywords">Android Application</span> development. I
+          am available for full-time job from January 2021.
         </p>
       </div>
       {/* about me  [ENDS]*/}
@@ -35,10 +36,11 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Website Development</h5>
             <p className="info-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              totam sapiente, harum doloremque omnis, excepturi sit cumque,
-              iusto deserunt minima voluptatem sequi in enim natus quia velit
-              consequatur magnam iure.
+              Do you want a fully responsive, data driven, dynamic or static Web
+              App? You're at right place. I knew the latest technologies used in
+              current industry to build a responsive Web Applications. I have a
+              knowledge of both backend as well as front end, along with
+              databases.
             </p>
           </div>
 
@@ -49,10 +51,11 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              totam sapiente, harum doloremque omnis, excepturi sit cumque,
-              iusto deserunt minima voluptatem sequi in enim natus quia velit
-              consequatur magnam iure.
+              Do you want a native app, data driven, dynamic or static Web App?
+              You're at right place. I knew the latest technologies used in
+              current industry to build a responsive Web Applications. I have a
+              knowledge of both backend as well as front end, along with
+              databases.
             </p>
           </div>
 
