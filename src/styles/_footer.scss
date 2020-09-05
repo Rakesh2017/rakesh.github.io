@@ -5,6 +5,7 @@
     margin-top: $container-top-padding;
     .title-h3 {
       text-align: center;
+      color: white;
     }
   }
 
@@ -16,15 +17,15 @@
     ul {
       list-style-type: none;
       li:hover a {
-        color: blue;
+        color: black;
       }
       a {
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 0.825rem;
-        color: black;
+        color: white;
         &:hover {
-          color: blue;
+          color: black;
         }
       }
     }

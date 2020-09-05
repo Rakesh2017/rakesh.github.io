@@ -4,9 +4,11 @@
 
 // grid layout to root div tag
 .super-parent-con {
-  display: flex;
-  flex-direction: column;
-  min-width: 350px;
+  .main-parent-con {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+  }
 }
 
 /* 
@@ -41,7 +43,7 @@
   .about-me-con {
     .title-h4 {
       text-align: center;
-      text-transform: capitalize;
+      text-transform: uppercase;
     }
     .info-p {
       margin-top: $container-top-padding;
@@ -65,7 +67,7 @@
   }
   .expertise-con {
     .title-h4 {
-      text-transform: capitalize;
+      text-transform: uppercase;
       color: gray;
       text-align: center;
     }
@@ -117,6 +119,7 @@
   .featured-work-title-con {
     padding: $container-top-padding 0 $container-top-padding;
     text-align: center;
+    text-transform: uppercase;
     @media only screen and (min-width: $media-query-desktop) {
       margin-bottom: 2rem;
     }
