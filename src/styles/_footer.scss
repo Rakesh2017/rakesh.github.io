@@ -1,11 +1,11 @@
 .footer-con {
-  background-color: $color-yellow;
+  background-color: $color-grey-accent;
   margin-top: $container-top-padding;
   .title-con {
     margin-top: $container-top-padding;
     .title-h3 {
       text-align: center;
-      color: white;
+      color: $color-green;
     }
   }
 
@@ -21,9 +21,8 @@
       }
       a {
         text-decoration: none;
-        color: white;
+        color: $color-green;
         font-size: 0.825rem;
-        color: white;
         &:hover {
           color: black;
         }
