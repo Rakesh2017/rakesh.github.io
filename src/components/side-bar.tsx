@@ -5,7 +5,7 @@ const SideBar = () => {
     <div className="side-bar-con">
       {/* name */}
       <div className="name-con">
-        <h2 className="name-h2">Rakesh</h2>
+        <h1 className="name-h1">Rakesh</h1>
       </div>
       {/* profile image */}
       <div className="image-con">
@@ -21,8 +21,9 @@ const SideBar = () => {
         </p>
       </div>
       <div className="resume-con">
-        <button className="view-resume-btn">View Resume</button>
-        <button className="download-resume-btn">Download Resume</button>
+        <button className="view-resume-btn">&nbsp;View Resume</button>
+        <button className="download-resume-btn">&nbsp;Save Resume</button>
+        <button className="hire-me-btn">&nbsp;Hire Me</button>
       </div>
     </div>
   );
