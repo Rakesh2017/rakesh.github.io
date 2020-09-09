@@ -17,8 +17,14 @@
     .side-bar-con {
       margin: auto;
       padding: 0.925rem;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
       .name-con {
         text-align: center;
+        letter-spacing: 0.125rem;
+        text-transform: uppercase;
       }
       .image-con {
         text-align: center;
@@ -26,9 +32,11 @@
         margin-bottom: 1rem;
         img {
           border-radius: 50%;
-          width: 144px;
-          height: 144px;
+          width: 152px;
+          height: 152px;
           object-fit: cover;
+          border: solid white 3px;
+          padding: 0.2rem;
         }
       }
       .info-con {
@@ -40,17 +48,46 @@
       .resume-con {
         text-align: center;
         margin-top: $container-top-padding;
+        display: flex;
+        flex-direction: column;
+        margin: $container-top-padding 1rem 0;
         button {
           border: solid 2px white;
           background-color: transparent;
           color: white;
           font-weight: 700;
           font-size: 0.925rem;
-          padding: 0.5rem;
+          padding: 0.5rem 1.5rem 0.5rem;
           border-radius: 0.2rem;
+          cursor: pointer;
+        }
+        .view-resume-btn {
+          &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 700;
+            content: "\f1e5";
+          }
+        }
+        .download-resume-btn,
+        .hire-me-btn {
+          margin-top: 0.5rem;
         }
         .download-resume-btn {
-          margin-top: 0.5rem;
+          background-color: white;
+          color: $color-green;
+          &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 700;
+            content: "\f0c7";
+          }
+        }
+        .hire-me-btn {
+          background-color: rgba(0, 0, 0, 0.3);
+          &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 700;
+            content: "\f1d8";
+          }
         }
       }
     }

@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <div className="footer-con">
       <div className="title-con">
-        <h3 className="title-h3">Want to hire Me ?</h3>
+        <h3 className="title-h3">
+          Want to <span>hire</span> Me | Get In Touch{" "}
+        </h3>
       </div>
 
       <nav className="contact-links-nav">
