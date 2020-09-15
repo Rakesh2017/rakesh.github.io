@@ -51,11 +51,8 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
-              Do you want a native app, data driven, dynamic or static Web App?
-              You're at right place. I knew the latest technologies used in
-              current industry to build a responsive Web Applications. I have a
-              knowledge of both backend as well as front end, along with
-              databases.
+              Do you want a native, data driven, dynamic or static Android Application?
+              I have a experience of 2 years in android application development. I can assure for the quality work and with high standard results in accordance with Software Requirement Specification.
             </p>
           </div>
 
@@ -66,10 +63,8 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">WordPress</h5>
             <p className="info-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              totam sapiente, harum doloremque omnis, excepturi sit cumque,
-              iusto deserunt minima voluptatem sequi in enim natus quia velit
-              consequatur magnam iure.
+              You want your website on wordpress but can not find suitable theme matching with your design UI? No Problem! I can built a custom theme 
+              for your wordpress website with custom posts. Additionally, I can manage your already working wordpress website.
             </p>
           </div>
         </div>
