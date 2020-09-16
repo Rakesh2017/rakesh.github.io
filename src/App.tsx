@@ -3,6 +3,7 @@ import "./App.scss";
 import SideBar from "../src/components/side-bar";
 import Header from "../src/components/header";
 import Welcome from "../src/components/welcome";
+import Languages from '../src/components/languages'
 import FeaturedWork from "../src/components/featured-work";
 import Footer from "../src/components/footer";
 
@@ -21,6 +22,10 @@ function App() {
           {/* welcome | about me | my expertise */}
           <section>
             <Welcome />
+          </section>
+          {/* languages and platforms */}
+          <section>
+            <Languages />
           </section>
           {/* featured work */}
           <section>
