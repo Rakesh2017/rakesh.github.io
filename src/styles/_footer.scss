@@ -7,7 +7,9 @@
       text-align: center;
       color: black;
       span {
-        color: orangered;
+        color: $color-green;
+        text-transform: uppercase;
+        font-size: 130%;
       }
       &::after {
         font-family: "Font Awesome 5 Free";
@@ -25,14 +27,14 @@
     ul {
       list-style-type: none;
       li:hover a {
-        color: orangered;
+        color: $color-green;
       }
       a {
         text-decoration: none;
         color: black;
         font-size: 0.825rem;
         &:hover {
-          color: orangered;
+          color: $color-green;
         }
       }
     }

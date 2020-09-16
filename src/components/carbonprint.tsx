@@ -13,10 +13,10 @@ const CarbonPrint = () => {
           &nbsp;https://www.carbonprint.ca
         </a>
         <p className="info-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea
-          aperiam repellendus dolorem expedita enim odio illum, consequatur
-          nobis, repellat nostrum doloremque ullam unde porro quia placeat
-          cupiditate corrupti neque.
+          A Carbon footprint is the number of greenhouse gases, primarily carbon
+          dioxide, released into the atmosphere by your daily activities. Carbon
+          Print helps you to calculate your carbon emissions produced by food,
+          travelling etc. Calculate your carbon footprint in few minutes.
         </p>
         <nav className="tags-nav">
           <ul>

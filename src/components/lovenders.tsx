@@ -13,10 +13,9 @@ const Lovenders = () => {
           &nbsp;https://www.lovenders.com
         </a>
         <p className="info-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea
-          aperiam repellendus dolorem expedita enim odio illum, consequatur
-          nobis, repellat nostrum doloremque ullam unde porro quia placeat
-          cupiditate corrupti neque.
+          Lovenders is a dating App. I built the front-end as well as back-end of Android App. I built this app for company (nrimb.com) based in Toronto.
+          As of December 2019, it has more than 35,000 active users. <br/>
+          <span className='note-span'>Note: Company decided to take down the App in late May 2020.</span>
         </p>
         <nav className="tags-nav">
           <ul>
