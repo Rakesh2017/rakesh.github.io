@@ -5,8 +5,8 @@
 // grid layout to root div tag
 .super-parent-con {
   display: grid;
-  @media only screen and (min-width: $media-query-desktop) {
-    grid-template-columns: 20% 80%;
+  @media only screen and (min-width: $media-query-tablet) {
+    grid-template-columns: 280px auto;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
@@ -29,7 +29,7 @@
         padding: 1rem;
         padding-top: 1.65rem;
         position: absolute;
-        @media only screen and (min-width: $media-query-desktop) {
+        @media only screen and (min-width: $media-query-tablet) {
           display: none;
         }
         .fa-bars {
@@ -41,7 +41,7 @@
         margin: auto;
         padding: 0.925rem;
         display: flex;
-        @media only screen and (min-width: $media-query-desktop) {
+        @media only screen and (min-width: $media-query-tablet) {
           justify-content: center;
         }
         height: 100vh;
@@ -53,10 +53,6 @@
           .name-h1 {
             margin-top: 0;
           }
-        }
-        // initially keep it hidden
-        .disable {
-          // display: none;
         }
         .active {
           display: block;
@@ -76,10 +72,13 @@
         }
         .info-con {
           text-align: center;
+          
+          justify-content: center;
           .info-p {
             font-size: 0.875rem;
             font-weight: 700;
             font-style: normal;
+            
           }
         }
         .resume-con {
@@ -88,6 +87,7 @@
           display: flex;
           flex-direction: column;
           margin: $container-top-padding 1rem 0;
+          
           button {
             border: solid 2px white;
             background-color: transparent;
@@ -96,6 +96,7 @@
             font-size: 0.925rem;
             padding: 0.5rem 1.5rem 0.5rem;
             border-radius: 0.2rem;
+           
             cursor: pointer;
           }
           .view-resume-btn {
@@ -133,7 +134,9 @@
   .main-parent-con {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    @media only screen and (min-width: $media-query-tablet) {
+        overflow-y: scroll;
+    }
     min-width: 350px;
     background-color: white;
   }
@@ -146,9 +149,12 @@
 // main container
 
 .main-con {
+  @media only screen and (min-width: $media-query-tablet) {
+    max-width: 600px;
+    margin: auto;
+  }
   @media only screen and (min-width: $media-query-desktop) {
     max-width: 1200px;
-    margin: auto;
   }
 }
 
@@ -236,6 +242,52 @@
  -----------------------------------------------------------------------------
 */
 
+// Languages
+
+.language-con {
+  margin-top: $container-top-padding;
+  margin-left: 0.825rem;
+  margin-right: 0.825rem;
+  .title-con {
+    .title-h4 {
+      text-transform: uppercase;
+      color: gray;
+      text-align: center;
+    }
+  }
+  .content-con {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media only screen and (min-width: $media-query-tablet) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    @media only screen and (min-width: $media-query-desktop) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    grid-template-rows: auto;
+    margin-top: $container-top-padding;
+    grid-gap: 1rem;
+    div {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .language-logo-img {
+      width: 52px;
+      height: 52px;
+    }
+  }
+}
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
 // featured work
 
 .featured-work-con {
@@ -314,10 +366,13 @@
   .image-con {
     margin: auto;
     img {
-      max-width: 75%;
+      max-width: 300px;
       padding: 0 1rem 0;
       display: flex;
       margin: auto;
+      @media only screen and (min-width: $media-query-tablet) {
+        max-width: 50%;
+      }
       @media only screen and (min-width: $media-query-desktop) {
         max-width: 100%;
       }

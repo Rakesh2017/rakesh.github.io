@@ -15,8 +15,8 @@ const Welcome = () => {
           Currently I am pursuing Post-Graduation in Web and Mobile application
           design and development at Langara College, Vancouver, Canada [Will be
           completed by Dec 2020]. <hr className="divider" /> I am open for
-          part-time jobs in <span className="keywords">Website</span> and{" "}
-          <span className="keywords">Android Application</span> development. I
+          part-time jobs in <span className="keywords">developing Web Applications</span> and{" "}
+          <span className="keywords">Native Android Applications</span>. I
           am available for full-time job from January 2021.
         </p>
       </div>
