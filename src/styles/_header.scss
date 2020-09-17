@@ -27,6 +27,13 @@
       }
     }
 
+    .name-con {
+      display: none;
+      @media only screen and (min-width: $media-query-tablet) {
+        display: block;
+      }
+    }
+
     .name-con,
     .email-con {
       text-align: center;
@@ -60,11 +67,12 @@
         }
         .fab {
           color: $color-green;
-          font-size: 1.5rem;
-          transition: all 0.2s;
+          font-size: 1.7rem;
+          transition: all 0.5s;
         }
         .fab:hover {
           color: white;
+          transform: rotate(360deg);
         }
       }
     }

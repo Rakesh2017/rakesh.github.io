@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from '../images/profile.jpg'
 
 const SideBar = () => {
   
@@ -28,14 +29,14 @@ const SideBar = () => {
         {/* profile image */}
         <div className="image-con disable toggle-con-1">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuZfZq9tllEgk_3z9bFGx-NLTS2vRcpSdB0Q&usqp=CAU"
+            src={profileImage}
             alt="profile image"
           />
         </div>
         <div className="info-con disable toggle-con-2">
           <p className="info-p">
             Hi, My name is rakesh. I welcome you to my portfolio website. I am
-            Web and mobile Application Developer.
+            Web and Mobile Application Developer.
           </p>
         </div>
         <div className="resume-con disable toggle-con-3">
