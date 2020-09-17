@@ -10,6 +10,7 @@ import sql from "../images/logos/sql.svg";
 import typescript from "../images/logos/typescript.svg";
 import firebase from "../images/logos/firebase.svg";
 import sass from "../images/logos/sass.svg";
+import xml from "../images/logos/xml.svg";
 
 const Languages = () => {
   return (
@@ -63,6 +64,10 @@ const Languages = () => {
         <div>
           <img className="language-logo-img" src={sql} alt="" />
           <p>MySQL</p>
+        </div>
+        <div>
+          <img className="language-logo-img" src={xml} alt="" />
+          <p>XML</p>
         </div>
       </div>
     </div>
