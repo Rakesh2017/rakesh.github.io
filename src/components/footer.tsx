@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer-con">
+    <footer className="footer-con">
       <div className="title-con">
         <h3 className="title-h3">
           Want to <span>hire</span> Me | Get In Touch{" "}
@@ -43,7 +43,7 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </footer>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import CarbonPrint from "../components/carbonprint";
 import Lovenders from "../components/lovenders";
+import Realisting from "../components/realisting";
 
 const FeaturedWork = () => {
   return (
@@ -11,6 +12,8 @@ const FeaturedWork = () => {
       <CarbonPrint />
       <hr className="divider-hr" />
       <Lovenders />
+      <hr className="divider-hr" />
+      <Realisting />
     </div>
   );
 };
