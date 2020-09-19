@@ -1,0 +1,32 @@
+import React from "react";
+import image from "../images/lovenders.png";
+
+const Realisting = () => {
+  return (
+    <div className="realisting-con featured-work-subject-con">
+      <div className="image-con">
+        <img src={image} alt="" />
+      </div>
+      <div className="info-con">
+        <h4 className="title-h4">Realisting</h4>
+        <a className="website-link-a" href="https://realistings.wmdd.ca">
+          &nbsp;https://realistings.wmdd.ca
+        </a>
+        <p className="info-p">
+          Realisting is a platform which provides a one-stop solution to all the problems and needs that come your way in buying or selling any property. <br/>
+        </p>
+        <nav className="tags-nav">
+          <ul>
+            <li>Wordpress</li>
+            <li>Wordpress Custom theme</li>
+            <li>PHP</li>
+            <li>Phonegap</li>
+            <li>Firebase</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
+};
+
+export default Realisting;
