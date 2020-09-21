@@ -17,7 +17,7 @@ const Welcome = () => {
           completed by Dec 2020].
         </p>
         <hr className="divider" />
-        <p className="info-p">
+        <p className="info-p avaliablity-p">
           {" "}
           I am open for part-time jobs in{" "}
           <span className="keywords">developing Web Applications</span> and{" "}
@@ -37,7 +37,7 @@ const Welcome = () => {
           {/* 1 */}
           <div className="expertise-one-con info-con">
             <div className="image-con">
-              <img src={icon1} alt="" />
+              <img src={icon1} alt="icon 1" />
             </div>
             <h5 className="title-h5">Website Development</h5>
             <p className="info-p">
@@ -52,7 +52,7 @@ const Welcome = () => {
           {/* 2 */}
           <div className="expertise-two-con info-con">
             <div className="image-con">
-              <img src={icon2} alt="" />
+              <img src={icon2} alt="icon 2" />
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
@@ -67,7 +67,7 @@ const Welcome = () => {
           {/* 3 */}
           <div className="expertise-three-con info-con">
             <div className="image-con">
-              <img src={icon3} alt="" />
+              <img src={icon3} alt="icon 3" />
             </div>
             <h5 className="title-h5">WordPress</h5>
             <p className="info-p">

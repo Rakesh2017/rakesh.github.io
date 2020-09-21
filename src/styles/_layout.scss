@@ -195,8 +195,19 @@
         text-align: center;
       }
     }
+    .avaliablity-p {
+      margin-top: 1rem;
+    }
     .divider {
-      margin: 0.5rem 0 0.5rem;
+      // margin: 0.5rem 1rem 0.5rem;
+      margin-top: 1rem;
+      @media only screen and (min-width: $media-query-tablet) {
+        margin: auto;
+        margin-top: 1rem;
+      }
+      @media only screen and (min-width: $media-query-desktop) {
+        max-width: 900px;
+      }
     }
   }
   .expertise-con {
@@ -219,7 +230,9 @@
           margin: auto;
           padding-top: 2rem;
           padding-bottom: 2rem;
-          filter: grayscale(1);
+          img {
+            filter: grayscale(1);
+          }
         }
         .title-h5 {
           text-align: center;
