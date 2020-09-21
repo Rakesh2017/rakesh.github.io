@@ -9,7 +9,7 @@ const Header = () => {
       <img
         className="header-background-img"
         src={image}
-        alt="background-image"
+        alt="background"
       />
       <div className="header-content-child-con">
         <div>
@@ -39,6 +39,7 @@ const Header = () => {
                 className="visually-hidden"
                 href="http://linkedin.com/in/rakesh-aa3135117"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 linkedin
               </a>
@@ -46,6 +47,7 @@ const Header = () => {
                 className="icon-link"
                 href="http://linkedin.com/in/rakesh-aa3135117"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 <i className="fab fa-linkedin"></i>
               </a>
@@ -56,6 +58,7 @@ const Header = () => {
                 className="visually-hidden"
                 href="https://github.com/Rakesh2017"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 Github
               </a>
@@ -63,6 +66,7 @@ const Header = () => {
                 className="icon-link"
                 href="https://github.com/Rakesh2017"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 <i className="fab fa-github-square"></i>
               </a>
@@ -73,6 +77,7 @@ const Header = () => {
                 className="visually-hidden"
                 href="https://stackoverflow.com/users/7872344/rakesh-kumar"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 Stack over flow
               </a>
@@ -80,6 +85,7 @@ const Header = () => {
                 className="icon-link"
                 href="https://stackoverflow.com/users/7872344/rakesh-kumar"
                 target="_blank"
+                rel='noopener noreferrer'
               >
                 <i className="fab fa-stack-overflow"></i>
               </a>
