@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/lovenders.png";
+import image from "../images/realisting.png";
 
 const Realisting = () => {
   return (
