@@ -5,11 +5,12 @@ const CarbonPrint = () => {
   return (
     <div className="carbon-print-con featured-work-subject-con">
       <div className="image-con">
-        <img src={image} alt="" />
+        <img src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
         <h4 className="title-h4">Carbon Print</h4>
-        <a className="website-link-a" href="https://www.carbonprint.ca">
+        <a className="website-link-a" href="https://www.carbonprint.ca" target="_blank"
+                rel='noopener noreferrer'>
           &nbsp;https://www.carbonprint.ca
         </a>
         <p className="info-p">

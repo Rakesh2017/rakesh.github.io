@@ -5,11 +5,12 @@ const Realisting = () => {
   return (
     <div className="realisting-con featured-work-subject-con">
       <div className="image-con">
-        <img src={image} alt="" />
+        <img src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
         <h4 className="title-h4">Realisting</h4>
-        <a className="website-link-a" href="https://realistings.wmdd.ca">
+        <a className="website-link-a" href="https://realistings.wmdd.ca" target="_blank"
+                rel='noopener noreferrer'>
           &nbsp;https://realistings.wmdd.ca
         </a>
         <p className="info-p">

@@ -30,7 +30,7 @@ const SideBar = () => {
         <div className="image-con disable toggle-con-1">
           <img
             src={profileImage}
-            alt="profile image"
+            alt="profile"
           />
         </div>
         <div className="info-con disable toggle-con-2">

@@ -14,10 +14,15 @@ const Welcome = () => {
           worked for two years in mobile Application development industry.
           Currently I am pursuing Post-Graduation in Web and Mobile application
           design and development at Langara College, Vancouver, Canada [Will be
-          completed by Dec 2020]. <hr className="divider" /> I am open for
-          part-time jobs in <span className="keywords">developing Web Applications</span> and{" "}
-          <span className="keywords">Native Android Applications</span>. I
-          am available for full-time job from January 2021.
+          completed by Dec 2020].
+        </p>
+        <hr className="divider" />
+        <p className="info-p">
+          {" "}
+          I am open for part-time jobs in{" "}
+          <span className="keywords">developing Web Applications</span> and{" "}
+          <span className="keywords">Native Android Applications</span>. I am
+          available for full-time job from January 2021.
         </p>
       </div>
       {/* about me  [ENDS]*/}
@@ -51,8 +56,11 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
-              Do you want a native, data driven, dynamic or static Android Application?
-              I have a experience of 2 years in android application development. I can assure for the quality work and with high standard results in accordance with Software Requirement Specification.
+              Do you want a native, data driven, dynamic or static Android
+              Application? I have a experience of 2 years in android application
+              development. I can assure for the quality work and with high
+              standard results in accordance with Software Requirement
+              Specification.
             </p>
           </div>
 
@@ -63,8 +71,10 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">WordPress</h5>
             <p className="info-p">
-              You want your website on wordpress but can not find suitable theme matching with your design UI? No Problem! I can built a custom theme 
-              for your wordpress website with custom posts. Additionally, I can manage your already working wordpress website.
+              You want your website on wordpress but can not find suitable theme
+              matching with your design UI? No Problem! I can built a custom
+              theme for your wordpress website with custom posts. Additionally,
+              I can manage your already working wordpress website.
             </p>
           </div>
         </div>
