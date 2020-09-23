@@ -1,5 +1,6 @@
 import React from "react";
-import profileImage from '../images/profile.jpg'
+import profileImage from '../images/profile.jpg';
+const pdfdata = '../resume.pdf';
 
 const SideBar = () => {
   
@@ -9,6 +10,7 @@ const SideBar = () => {
     document.querySelector('.toggle-con-3')?.classList.toggle('active')
     document.querySelector('.side-bar-con')?.classList.toggle('maximized')
   }
+
 
   return (
     <div className="side-bar-con minimized">
@@ -40,7 +42,7 @@ const SideBar = () => {
           </p>
         </div>
         <div className="resume-con disable toggle-con-3">
-          <button className="view-resume-btn">&nbsp;View Resume</button>
+          <button className="view-resume-btn"  >&nbsp;View Resume</button>
           <button className="download-resume-btn">&nbsp;Save Resume</button>
           <button className="hire-me-btn">&nbsp;Hire Me</button>
         </div>
