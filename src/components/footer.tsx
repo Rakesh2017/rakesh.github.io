@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer-con">
+    <footer className="footer-con" id='send-to-bottom'>
       <div className="title-con">
         <h3 className="title-h3">
           Want to <span>hire</span> Me | Get In Touch{" "}

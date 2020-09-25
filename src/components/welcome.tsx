@@ -19,9 +19,9 @@ const Welcome = () => {
         <hr className="divider" />
         <p className="info-p avaliablity-p">
           {" "}
-          I am open for part-time jobs in{" "}
-          <span className="keywords">developing Web Applications</span> and{" "}
-          <span className="keywords">Native Android Applications</span>. I am
+          I am open for part-time jobs in developing{" "}
+          <span className="keywords">Web Applications</span> and{" "}
+          <span className="keywords">Native Android Applications</span>. I will be
           available for full-time job from January 2021.
         </p>
       </div>
