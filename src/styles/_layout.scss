@@ -2,8 +2,68 @@
  -----------------------------------------------------------------------------
 */
 
+// Resume view 
+
+.main-resume-con-active {
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+  grid-gap: 1rem;
+  max-width: $media-query-tablet;
+  min-width: $minimum-width;
+  margin: auto;
+  .cross-con {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background: #54b689;
+    .fas {
+      font-size: 1rem;
+      margin-right: 1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        font-size: 1.725rem;
+      }
+    }
+    .resume-p {
+      margin-left: 10px;
+      font-weight: 700;
+    }
+  }
+  .resume-img-con {
+    margin: 0 0.3rem 0;
+    padding: 0.3rem;
+    border: 2px solid $color-green;
+    border-radius: 0.2rem;
+    .resume-img {
+     
+    }
+  }
+  .download-btn {
+    width: 100%;
+    cursor: pointer;
+    padding: 0.7rem;
+    background-color: $color-grey-accent;
+    border: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+  }
+}
+
+// hide the resume view
+.main-resume-con-disable {
+  display: none;
+}
+
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
 // grid layout to root div tag
-.super-parent-con {
+.super-parent-con-active {
   display: grid;
   @media only screen and (min-width: $media-query-tablet) {
     grid-template-columns: 280px auto;
@@ -72,13 +132,12 @@
         }
         .info-con {
           text-align: center;
-          
+
           justify-content: center;
           .info-p {
             font-size: 0.875rem;
             font-weight: 700;
             font-style: normal;
-            
           }
         }
         .resume-con {
@@ -87,7 +146,7 @@
           display: flex;
           flex-direction: column;
           margin: $container-top-padding 1rem 0;
-          
+
           button {
             border: solid 2px white;
             background-color: transparent;
@@ -96,8 +155,11 @@
             font-size: 0.925rem;
             padding: 0.5rem 1.5rem 0.5rem;
             border-radius: 0.2rem;
-           
             cursor: pointer;
+            a {
+              text-decoration: none;
+              color: white;
+            }
           }
           .view-resume-btn {
             &::before {
@@ -135,11 +197,15 @@
     display: flex;
     flex-direction: column;
     @media only screen and (min-width: $media-query-tablet) {
-        overflow-y: scroll;
+      overflow-y: scroll;
     }
     min-width: 350px;
     background-color: white;
   }
+}
+
+.super-parent-con-disable {
+  display: none;
 }
 
 /* 
