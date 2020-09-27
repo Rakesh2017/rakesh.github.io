@@ -18,6 +18,9 @@ export default function Resume() {
       ?.classList.remove("super-parent-con-disable");
   }
 
+  const resume_download_url = 'https://drive.google.com/file/d/1y9w_Btl7FosS_6bX6B_EmixaaS64ZCF1/view?usp=sharing'; 
+  
+
   return (
     <div className="main-resume-con main-resume-con-disable">
       <div className="cross-con">
@@ -33,7 +36,12 @@ export default function Resume() {
       <div className="resume-img-con">
         <img className="resume-img" src={resume_image} alt="resume" />
       </div>
-      <button className="download-btn">Download pdf version</button>
+     <a className="download-btn"
+              
+              target='_blank'
+              href={resume_download_url}
+              download="resume"
+            >Download pdf version</a>
     </div>
   );
 }
