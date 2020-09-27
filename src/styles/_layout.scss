@@ -37,9 +37,6 @@
     padding: 0.3rem;
     border: 2px solid $color-green;
     border-radius: 0.2rem;
-    .resume-img {
-     
-    }
   }
   .download-btn {
     width: 100%;
@@ -156,9 +153,13 @@
             padding: 0.5rem 1.5rem 0.5rem;
             border-radius: 0.2rem;
             cursor: pointer;
-            a {
+            .hire-a {
               text-decoration: none;
               color: white;
+            }
+            .download-a {
+              text-decoration: none;
+              color: $color-green;
             }
           }
           .view-resume-btn {
