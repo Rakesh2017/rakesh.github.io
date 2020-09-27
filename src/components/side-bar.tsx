@@ -23,6 +23,8 @@ const SideBar = () => {
       ?.classList.toggle("super-parent-con-disable");
   }
 
+  const resume_download_url = 'https://drive.google.com/file/d/1y9w_Btl7FosS_6bX6B_EmixaaS64ZCF1/view?usp=sharing'; 
+  
   return (
     <div className="side-bar-con minimized">
       <div className="cross-con">
@@ -58,8 +60,23 @@ const SideBar = () => {
           >
             &nbsp;View Resume
           </button>
-          <button className="download-resume-btn">&nbsp;Save Resume</button>
-          <button className="hire-me-btn" >&nbsp; <a href="#send-to-bottom">Hire Me</a> </button>
+          <button className="download-resume-btn">
+            &nbsp;
+            <a
+              className="download-a"
+              target='_blank'
+              href={resume_download_url}
+              download="resume"
+            >
+              Download Resume
+            </a>
+          </button>
+          <button className="hire-me-btn">
+            &nbsp;{" "}
+            <a className="hire-a" href="#send-to-bottom">
+              Hire Me
+            </a>{" "}
+          </button>
         </div>
       </div>
     </div>
