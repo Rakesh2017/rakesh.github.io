@@ -15,8 +15,8 @@ const Lovenders = () => {
         </a>
         <p className="info-p">
           Lovenders is a dating App. I built the front-end as well as back-end of Android App. I built this app for company (nrimb.com) based in Toronto.
-          As of December 2019, it has more than 35,000 active users. <br/>
-          <span className='note-span'>Note: Company decided to take down the App in late May 2020.</span>
+          As of May 2020, it has more than 35,000 active users. <br/>
+          <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span>
         </p>
         <nav className="tags-nav">
           <ul>
