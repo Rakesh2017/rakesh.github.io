@@ -14,8 +14,11 @@ const Lovenders = () => {
           &nbsp;https://www.lovenders.com
         </a>
         <p className="info-p">
-          Lovenders is a dating App. I built the front-end as well as back-end of Android App. I built this app for company (https://www.nrimb.com/) based in Toronto.
-          As of May 2020, it has more than 35,000 active users. <br/>
+          Lovenders is a Native dating Android Application build on JAVA. I mainly worked on frontend and backend of application where as datbase and APIs(built on php) was taken care by DA team. As of May 2020, it has more than 35,000 active users. <br/><br/>
+          • I worked on JAVA to build a backend application. <br/>
+          • XML as frontend. <br/>
+          • Login/ Authentication integrations (google, phone, facebook).
+          <br/>
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
         <nav className="tags-nav">

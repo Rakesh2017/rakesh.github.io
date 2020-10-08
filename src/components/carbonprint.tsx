@@ -14,10 +14,10 @@ const CarbonPrint = () => {
           &nbsp;https://www.carbonprint.ca
         </a>
         <p className="info-p">
-          A Carbon footprint is the number of greenhouse gases, primarily carbon
-          dioxide, released into the atmosphere by your daily activities. Carbon
-          Print helps you to calculate your carbon emissions produced by food,
-          travelling etc. Calculate your carbon footprint in few minutes.
+          Carbonprint is an application build on reactjs library with expressjs. In this project, I was appointed as project manager. Although my primary duty was to take care of backend plus database. Entire backend and database was designed and developed by me. <br/> <br/>
+          • For backend, I used vanilla javascript. <br/>
+          • REST APIs is developed on nodejs with expressjs. <br/>
+          • Database is built on mysql.
         </p>
         <nav className="tags-nav">
           <ul>
