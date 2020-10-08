@@ -41,11 +41,7 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Website Development</h5>
             <p className="info-p">
-              Do you want a fully responsive, data driven, dynamic or static Web
-              App? You're at right place. I knew the latest technologies used in
-              current industry to build a responsive Web Applications. I have a
-              knowledge of both backend as well as front end, along with
-              databases.
+              I have experience of about one year in developing Web Applications. I have worked on reactjs library (I love to work on reactjs coupled with expressjs). For backend I can work on javascript, typescript, nodejs + expressjs(REAST APIs), google cloud functions, firebase, and sql. Whereas for frontend I can work on JSX, HTML, CSS, SASS. 
             </p>
           </div>
 
@@ -56,11 +52,7 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Android Application Development</h5>
             <p className="info-p">
-              Do you want a native, data driven, dynamic or static Android
-              Application? I have a experience of 2 years in android application
-              development. I can assure for the quality work and with high
-              standard results in accordance with Software Requirement
-              Specification.
+             I have industry experience of more than one year in developing native android applications. I have worked intensively on JAVA with XML to develop android applications. I can work on JAVA, firebase, XML, google cloud functions, firebase/firestore, and mysql and various dependencies. 
             </p>
           </div>
 
@@ -71,9 +63,7 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">WordPress</h5>
             <p className="info-p">
-              You want your website on wordpress but can not find suitable theme
-              matching with your design UI? No Problem! I can built a custom
-              theme for your wordpress website with custom posts. Additionally,
+              I can built a custom theme for your wordpress website with custom posts. Additionally,
               I can manage your already working wordpress website.
             </p>
           </div>
