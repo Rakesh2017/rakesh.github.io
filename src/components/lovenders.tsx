@@ -11,7 +11,7 @@ const Lovenders = () => {
         <h4 className="title-h4">Lovenders</h4>
         <a className="website-link-a" href="https://www.lovenders.com" target="_blank"
                 rel='noopener noreferrer'>
-<!-- TODO:  need changes in web url, redirect to https://apkpure.com/lovenders/com.united.lovender  -->
+<!-- TODO:  need changes in web url; redirect to https://apkpure.com/lovenders/com.united.lovender  -->
           &nbsp;https://www.lovenders.com
         </a>
         <p className="info-p">
