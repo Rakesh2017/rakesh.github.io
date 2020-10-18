@@ -9,9 +9,9 @@ const Lovenders = () => {
       </div>
       <div className="info-con">
         <h4 className="title-h4">Lovenders</h4>
-        <a className="website-link-a" href="https://www.lovenders.com" target="_blank"
+        <a className="website-link-a link-android" href="https://apkpure.com/lovenders/com.united.lovender" target="_blank"
                 rel='noopener noreferrer'>
-          &nbsp;https://www.lovenders.com
+          &nbsp;https://apkpure.com/lovenders/com.united.lovender
         </a>
         <p className="info-p">
           Lovenders is a Native dating Android Application build on JAVA. I mainly worked on frontend and backend of application where as datbase and APIs(built on php) was taken care by DA team. As of May 2020, it has more than 35,000 active users. <br/><br/>

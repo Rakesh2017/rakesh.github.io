@@ -405,6 +405,11 @@
         font-weight: 700;
         content: "\f0ac";
       }
+      .link-android::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        content: "\f135";
+      }
       .info-p {
         margin-top: 1rem;
         .note-span {
