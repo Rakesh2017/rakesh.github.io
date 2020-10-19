@@ -15,8 +15,8 @@ const Lovenders = () => {
         </a>
         <p className="info-p">
           Lovenders is a Native dating Android Application build on JAVA. I mainly worked on frontend and backend of application where as datbase and APIs(built on php) was taken care by DA team. As of May 2020, it has more than 35,000 active users. <br/><br/>
-          • I worked on JAVA to build a backend application. <br/>
-          • XML as frontend. <br/>
+          • I worked on JAVA to build a backend of an application. <br/>
+          • For frontend I used XML. <br/>
           • Login/ Authentication integrations (google, phone, facebook).
           <br/>
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
