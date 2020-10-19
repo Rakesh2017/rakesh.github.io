@@ -37,10 +37,10 @@ export default function Resume() {
         <img className="resume-img" src={resume_image} alt="resume" />
       </div>
      <a className="download-btn"
-              
               target='_blank'
               href={resume_download_url}
               download="resume"
+              rel='noopener noreferrer'
             >Download pdf version</a>
     </div>
   );
