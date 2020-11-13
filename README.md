@@ -1,4 +1,4 @@
-## - - - - - - -  My PORTFOLIO - - - - - - - -
+## - - - - - - -  MY PORTFOLIO - - - - - - - -
 
 Built on ReactJS + TypeScript
 
