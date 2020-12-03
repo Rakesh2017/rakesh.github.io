@@ -33,12 +33,12 @@ const Footer = () => {
           </li>
           {/* linkdein */}
           <li className="link-linkedin-li">
-            <a href="http://linkedin.com/in/rakesh-aa3135117" target="_blank" rel='noopener noreferrer'>
+            <a href="https://www.linkedin.com/in/rakesh07/" target="_blank" rel='noopener noreferrer'>
               <i className="fab fa-linkedin"></i>
             </a>
             &nbsp;
-            <a href="http://linkedin.com/in/rakesh-aa3135117" target="_blank" rel='noopener noreferrer'>
-              http://linkedin.com/in/rakesh-aa3135117
+            <a href="https://www.linkedin.com/in/rakesh07/" target="_blank" rel='noopener noreferrer'>
+              https://www.linkedin.com/in/rakesh07/
             </a>
           </li>
         </ul>
