@@ -10,7 +10,8 @@ import sql from "../images/logos/sql.svg";
 import typescript from "../images/logos/typescript.svg";
 import firebase from "../images/logos/firebase.svg";
 import sass from "../images/logos/sass.svg";
-import xml from "../images/logos/xml.svg";
+import graphQL from "../images/logos/graphql.svg";
+import api from "../images/logos/api.svg";
 
 const Languages = () => {
   return (
@@ -23,7 +24,19 @@ const Languages = () => {
       <div className="content-con">
         <div>
           <img className="language-logo-img" src={reactJS} alt="" />
-          <p>ReactJS</p>
+          <p>ReactJS &<br /> React Native</p>
+        </div>
+        <div>
+          <img className="language-logo-img" src={graphQL} alt="" />
+          <p>GraphQL</p>
+        </div>
+        <div>
+          <img className="language-logo-img" src={api} alt="" />
+          <p>REST API</p>
+        </div>
+        <div>
+          <img className="language-logo-img" src={sql} alt="" />
+          <p>MySQL</p>
         </div>
         <div>
           <img className="language-logo-img" src={vanillaJS} alt="" />
@@ -42,10 +55,6 @@ const Languages = () => {
           <p>HTML</p>
         </div>
         <div>
-          <img className="language-logo-img" src={css} alt="" />
-          <p>CSS</p>
-        </div>
-        <div>
           <img className="language-logo-img" src={sass} alt="" />
           <p>SASS</p>
         </div>
@@ -60,14 +69,6 @@ const Languages = () => {
         <div>
           <img className="language-logo-img" src={firebase} alt="" />
           <p>Firebase</p>
-        </div>
-        <div>
-          <img className="language-logo-img" src={sql} alt="" />
-          <p>MySQL</p>
-        </div>
-        <div>
-          <img className="language-logo-img" src={xml} alt="" />
-          <p>XML</p>
         </div>
       </div>
     </div>

@@ -12,17 +12,14 @@ const Welcome = () => {
         <p className="info-p">
           Hello, I am backend developer living in Vancouver, Canada. I had
           worked for two years in mobile Application development industry.
-          Currently I am pursuing Post-Graduation in Web and Mobile application
-          design and development at Langara College, Vancouver, Canada [Will be
-          completed by Dec 2020].
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
           {" "}
-          I am open for part-time jobs in developing{" "}
+          I am open for full time jobs in developing{" "}
+          <span className="keywords">Backend development</span>{", "}
           <span className="keywords">Web Applications</span> and{" "}
-          <span className="keywords">Native Android Applications</span>. I will be
-          available for full-time job from January 2021.
+          <span className="keywords">Native Android Applications</span>.
         </p>
       </div>
       {/* about me  [ENDS]*/}
@@ -41,7 +38,7 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Website Development</h5>
             <p className="info-p">
-              I have experience of about one year in developing Web Applications. I have worked on reactjs library (I love to work on reactjs coupled with expressjs). For backend I can work on javascript, typescript, nodejs + expressjs(REAST APIs), google cloud functions, firebase, and sql. Whereas for frontend I can work on JSX, HTML, CSS, SASS. 
+              I have experience of about one year in developing Web Applications. I have worked on reactjs library (I love to work on reactjs coupled with expressjs). For backend I can work on javascript, typescript, nodejs + expressjs(REST APIs), google cloud functions, firebase, and sql. Whereas for frontend I can work on JSX, HTML, CSS, SASS. 
             </p>
           </div>
 
