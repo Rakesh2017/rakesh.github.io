@@ -15,9 +15,9 @@ const CarbonPrint = () => {
         </a>
         <p className="info-p">
           Carbonprint is an application build on reactjs library with expressjs. In this project, I was appointed as project manager. Although my primary duty was to take care of backend plus database. Entire backend and database was designed and developed by me. <br/> <br/>
-          • For backend, I used vanilla javascript. <br/>
-          • REST APIs is developed on nodejs with expressjs. <br/>
-          • Database is built on mysql.
+          • I develop the backend on nodejs. <br/>
+          • Database is built on mysql. <br />
+          • Frontend structuring on react JSX.
         </p>
         <nav className="tags-nav">
           <ul>
