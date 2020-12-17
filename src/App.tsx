@@ -7,6 +7,7 @@ import Languages from "../src/components/languages";
 import FeaturedWork from "../src/components/featured-work";
 import Footer from "../src/components/footer";
 import Resume from '../src/components/resume'
+import FullStack from '../src/components/fullStack'
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
             </section>
             {/* languages and platforms */}
             <section>
-              <Languages />
+              <FullStack />
+              {/* <Languages /> */}
             </section>
             {/* featured work */}
             <section>

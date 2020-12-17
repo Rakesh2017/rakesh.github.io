@@ -47,8 +47,7 @@ const SideBar = () => {
         </div>
         <div className="info-con disable toggle-con-2">
           <p className="info-p">
-            Hi, My name is rakesh. I welcome you to my portfolio website. I am
-            Web and Mobile Application Developer.
+            WELCOME TO MY PORTFOLIO
           </p>
         </div>
         <div className="resume-con disable toggle-con-3">

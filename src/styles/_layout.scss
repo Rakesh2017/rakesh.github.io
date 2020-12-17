@@ -239,11 +239,10 @@
   flex-direction: column;
   .about-me-con,
   .expertise-con {
-    margin-top: $container-top-padding;
+    margin-top: $main-container-top-padding;
     margin-left: $container-side-mobile-padding;
     margin-right: $container-side-mobile-padding;
   }
-
   .about-me-con {
     .title-h4 {
       text-align: center;
@@ -270,6 +269,9 @@
     }
     .divider {
       margin-top: 1rem;
+      height: 1px;
+      border: none;
+      background-color: grey;
       @media only screen and (min-width: $media-query-tablet) {
         margin: auto;
         margin-top: 1rem;
@@ -282,7 +284,6 @@
   .expertise-con {
     .title-h4 {
       text-transform: uppercase;
-      color: gray;
       text-align: center;
     }
     .expertise-main-con {
@@ -294,13 +295,13 @@
         border: solid 1px gray;
         border-radius: 0.175rem;
         .image-con {
-          max-width: 92px;
+          max-width: 62px;
           height: auto;
           margin: auto;
           padding-top: 2rem;
           padding-bottom: 2rem;
           img {
-            filter: grayscale(1);
+            // filter: grayscale(0.5);
           }
         }
         .title-h5 {
@@ -375,10 +376,13 @@
 
 .featured-work-con {
   background-color: $color-grey-accent;
-  margin-top: $container-top-padding;
+  margin-top: $main-container-top-padding;
   padding-bottom: $container-top-padding;
   .divider-hr {
     margin: $container-top-padding 0 $container-top-padding 0;
+    height: 1px;
+    border: none;
+    background-color: grey;
   }
   .featured-work-title-con {
     padding: $container-top-padding 0 $container-top-padding;
@@ -474,5 +478,57 @@
     border-radius: 0.175rem;
     margin-left: 0.825rem;
     margin-right: 0.825rem;
+  }
+}
+
+/* 
+ -----------------------------------------------------------------------------
+*/
+
+// full stack layout
+
+.stack-con {
+  margin-top: $main-container-top-padding;
+  margin-left: 0.825rem;
+  margin-right: 0.825rem;
+  .stack-h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .stack-content-con {
+    @media only screen and (min-width: $media-query-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+    }
+    @media only screen and (min-width: $media-query-desktop) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .stack-title-h5 {
+      text-align: center;
+      color: grey;
+      margin-top: 3rem;
+    }
+    .mobile-con {
+      margin-top: 1rem;
+    }
+    .subject-con {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+      p {
+        font-size: 0.7rem;
+      }
+      .tech-con {
+        display: "flex";
+        flex-direction: "column";
+        img {
+          display: block;
+          margin: auto;
+          width: 36px;
+          height: 36px;
+        }
+      }
+    }
   }
 }
