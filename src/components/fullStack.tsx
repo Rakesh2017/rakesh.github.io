@@ -7,6 +7,7 @@ import nodejs from "../images/logos/nodejs.svg";
 import sql from "../images/logos/sql.svg";
 import firebase from "../images/logos/firebase.svg";
 import graphQL from "../images/logos/graphql.svg";
+import typescript from "../images/logos/typescript.svg";
 
 const FullStack = () => {
   return (
@@ -56,6 +57,10 @@ const FullStack = () => {
             <div className="tech-con">
               <img src={vanillaJS} alt="" />
               <p className="language-p">vanilla JS</p>
+            </div>
+            <div className="tech-con">
+              <img src={typescript} alt="" />
+              <p className="language-p">TypeScript</p>
             </div>
             <div className="tech-con">
               <img src={html} alt="" />

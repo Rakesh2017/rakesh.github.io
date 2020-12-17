@@ -1,6 +1,6 @@
 import React from "react";
 import servers from "../images/servers.svg";
-import android from "../images/android.svg";
+import smartphone from "../images/smartphone.svg";
 import web from "../images/web.svg";
 
 const Welcome = () => {
@@ -51,13 +51,13 @@ const Welcome = () => {
           {/* 2 */}
           <div className="expertise-two-con info-con">
             <div className="image-con">
-              <img src={android} alt="icon 2" />
+              <img src={smartphone} alt="icon 2" />
             </div>
-            <h5 className="title-h5">Android Development</h5>
+            <h5 className="title-h5">Mobile Applications</h5>
             <p className="info-p">
               I have industry experience of more than two years in developing
               native android applications. I majorly worked on JAVA and google
-              API services.
+              API services. Whereas I have 6 months experience of developing hybrid mobile applications on react native.
             </p>
           </div>
 
