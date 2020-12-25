@@ -12,15 +12,9 @@ const SideBar = () => {
 
   // show resume and hide the main/hero container
   function show_resume(): any {
-    document
-      .querySelector(".main-resume-con-disable")
-      ?.classList.add("main-resume-con-active");
-    document
-      .querySelector(".main-resume-con-active")
-      ?.classList.remove("main-resume-con-disable");
-    document
-      .querySelector(".super-parent-con-active")
-      ?.classList.toggle("super-parent-con-disable");
+    document.querySelector(".main-resume-con-disable")?.classList.add("main-resume-con-active");
+    document.querySelector(".main-resume-con-active")?.classList.remove("main-resume-con-disable");
+    document.querySelector(".super-parent-con-active")?.classList.toggle("super-parent-con-disable");
   }
 
   const resume_download_url = 'https://drive.google.com/file/d/1NmucDC9zbEoIyifWYG3-1hNBfCxUNjOE/view?usp=sharing'; 

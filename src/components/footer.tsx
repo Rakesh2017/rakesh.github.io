@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer-con" id='hire-me'>
+    <footer className="footer-con" id="hire-me">
       <div className="title-con">
         <h3 className="title-h3">
           Want to <span>hire</span> Me | Get In Touch{" "}
@@ -13,32 +13,48 @@ const Footer = () => {
         <ul>
           {/* gmail */}
           <li className="link-gmail-li">
-            <a href="mailto:rakesh22717@gmail.com" target="_blank" rel='noopener noreferrer'>
+            <a
+              href="mailto:rakesh22717@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fas fa-envelope"></i>
             </a>
             &nbsp;
-            <a href="mailto:rakesh22717@gmail.com" target="_blank" rel='noopener noreferrer'>
+            <a
+              href="mailto:rakesh22717@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               rakesh22717@gmail.com
             </a>
           </li>
           {/* phone */}
           <li className="link-phone-li">
-            <a href="tel:6047730344" target="_blank" rel='noopener noreferrer'>
+            <a href="tel:6047730344" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-phone-square"></i>
             </a>
             &nbsp;
-            <a href="tel:6047730344" target="_blank" rel='noopener noreferrer'>
+            <a href="tel:6047730344" target="_blank" rel="noopener noreferrer">
               +1(604)-773-0344
             </a>
           </li>
           {/* linkdein */}
           <li className="link-linkedin-li">
-            <a href="https://www.linkedin.com/in/rakesh07/" target="_blank" rel='noopener noreferrer'>
+            <a
+              href="https://www.linkedin.com/in/rakesh07/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
             &nbsp;
-            <a href="https://www.linkedin.com/in/rakesh07/" target="_blank" rel='noopener noreferrer'>
-              https://www.linkedin.com/in/rakesh07/
+            <a
+              href="https://www.linkedin.com/in/rakesh07/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/rakesh07/
             </a>
           </li>
         </ul>

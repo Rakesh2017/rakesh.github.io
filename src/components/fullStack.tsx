@@ -11,7 +11,7 @@ import typescript from "../images/logos/typescript.svg";
 
 const FullStack = () => {
   return (
-    <div className="stack-con">
+    <div id='fullstack' className="stack-con">
       <div className="stack-con">
         <h3 className="stack-h3">Full Stack</h3>
       </div>
