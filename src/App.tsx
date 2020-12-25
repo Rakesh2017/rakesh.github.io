@@ -8,12 +8,14 @@ import FeaturedWork from "../src/components/featured-work";
 import Footer from "../src/components/footer";
 import Resume from '../src/components/resume'
 import FullStack from '../src/components/fullStack'
+import FooterNav from '../src/components/footer-nav'
 
 
 function App() {
 
   return (
     <div>
+      <FooterNav />
       {/* View Resume */}
       {/* by default: hide */}
       <Resume />

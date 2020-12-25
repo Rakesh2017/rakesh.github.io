@@ -3,7 +3,7 @@ import image from "../images/portfolio-background.jpg";
 
 const Header = () => {
   return (
-    <header className="header-con">
+    <header id='#header-me' className="header-con">
       {/* header main container */}
       {/* name and designation BLOCK */}
       <img

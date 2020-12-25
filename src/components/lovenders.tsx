@@ -27,8 +27,12 @@ const Lovenders = () => {
             <li>Firebase</li>
             <li>PHP</li>
             <li>REST API</li>
-            <li>GCF</li>
-            <li>XML</li>
+            <li>Google cloud functions</li>
+            <li>Google APIs</li>
+            <li>Google Maps</li>
+            <li>Offline Capabilities</li>
+            <li>Google, Facebook and Phone Logins</li>
+
           </ul>
         </nav>
       </div>
