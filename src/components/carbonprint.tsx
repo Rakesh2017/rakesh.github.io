@@ -9,22 +9,30 @@ const CarbonPrint = () => {
       </div>
       <div className="info-con">
         <h4 className="title-h4">Carbon Print</h4>
-        <a className="website-link-a" href="https://www.carbonprint.ca" target="_blank"
-                rel='noopener noreferrer'>
+        <a
+          className="website-link-a"
+          href="https://www.carbonprint.ca"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           &nbsp;https://www.carbonprint.ca
         </a>
         <p className="info-p">
-          Carbonprint is an application build on reactjs library with expressjs. In this project, I was appointed as project manager. Although my primary duty was to take care of backend plus database. Entire backend and database was designed and developed by me. <br/> <br/>
-          • I develop the backend on nodejs. <br/>
-          • Database is built on mysql. <br />
-          • Frontend structuring on react JSX.
+          Carbon print is a web platform where an individual can calculate the
+          amount of carbon footprint they produced in relation to their daily
+          activities. <br /> <br />
+          • Orchestrated the team of eight members. <br />
+          • Developed the backend on nodeJS. <br />
+          • Implemented google Places APIs to autocomplete the field as user types.  <br />
+          • Built the database on MySQL. Database is hosted on plesk server. <br />• Frontend structuring on react
+          JSX. 
         </p>
         <nav className="tags-nav">
           <ul>
             <li>ReactJS</li>
             <li>ExpressJS</li>
-            <li>canvasJS</li>
-            <li>nodeJS</li>
+            <li>CanvasJS</li>
+            <li>NodeJS</li>
             <li>REST API</li>
             <li>Visualizations</li>
           </ul>

@@ -20,20 +20,20 @@ const Offbeat = () => {
         <p className="info-p">
           With OFFbeat, you can turn your travel journeys into an amazing personal
           adventure journal and even share it with world. <br /> <br />
-          • I develop the backend with nodejs. <br />
-          • Used OAuth 2.0 for authentication. <br />
+          • Developed the backend with nodeJS. <br />
           • Followed MVC pattern to develop REST APIs. <br />
-          • For database, I have used MySql. <br />
+          • Implemented OAuth 2.0 for authentication. <br />
+          • For database, used MySql. <br />
           • Database and backend hosted on AWS EC2.
           <br />
         </p>
         <nav className="tags-nav">
           <ul>
-            <li>react native</li>
-            <li>react native CLI</li>
-            <li>nodejs</li>
-            <li>mysql</li>
-            <li>oauth 2.0</li>
+            <li>React Native</li>
+            <li>React Native CLI</li>
+            <li>NodeJS</li>
+            <li>MySQL</li>
+            <li>OAuth 2.0</li>
           </ul>
         </nav>
       </div>
