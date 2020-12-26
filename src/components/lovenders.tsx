@@ -9,16 +9,23 @@ const Lovenders = () => {
       </div>
       <div className="info-con">
         <h4 className="title-h4">Lovenders</h4>
-        <a className="website-link-a link-android" href="https://apkpure.com/lovenders/com.united.lovender" target="_blank"
-                rel='noopener noreferrer'>
+        <a
+          className="website-link-a link-android"
+          href="https://apkpure.com/lovenders/com.united.lovender"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           &nbsp;https://apkpure.com/lovenders/com.united.lovender
         </a>
         <p className="info-p">
-          Lovenders is a Native dating Android Application build on JAVA. I mainly worked on frontend and backend of application where as datbase and APIs(built on php) was taken care by DA team. As of May 2020, it has more than 35,000 active users. <br/><br/>
-          • I worked on JAVA to build a backend of an application. <br/>
-          • For frontend I used XML. <br/>
-          • Login/ Authentication integrations (google, phone, facebook).
-          <br/>
+          Lovenders is a Native dating Android Application build on JAVA. As of May 2020, it
+          has more than 35,000 active users. <br />
+          <br />
+          • Developed Whole Android client part. <br />
+          • Implement Right Left Swipe Actions with cards. <br />
+          • Integrated Google in app purchases supported for three currencies. <br />
+          • Built Chatting Feature on firebase. <br />
+          • Used Google SDK to integrate Google Login, Facebook endpoints to integrate Facebook login, Firebase Auth for Phone login.
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
         <nav className="tags-nav">
@@ -32,7 +39,6 @@ const Lovenders = () => {
             <li>Google Maps</li>
             <li>Offline Capabilities</li>
             <li>Google, Facebook and Phone Logins</li>
-
           </ul>
         </nav>
       </div>
