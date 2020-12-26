@@ -10,10 +10,10 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          Hi, I am Full Stack Developer living in Vancouver, Canada. I have
-          two years industry experience in native android application
-          development. Whereas I have more than one year experience in Web
-          Application and Backend Development.
+          Hi, I am Full Stack Developer living in Vancouver, Canada. I have two
+          years industry experience in native android application development.
+          Whereas I have more than one year experience in Web Application and
+          Backend Development.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
@@ -28,7 +28,7 @@ const Welcome = () => {
       {/* about me  [ENDS]*/}
 
       {/* experience */}
-      <div id='experience' className="expertise-con">
+      <div id="experience" className="expertise-con">
         <div>
           <h4 className="title-h4">Area of Experience</h4>
         </div>
@@ -41,10 +41,9 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Web Applications</h5>
             <p className="info-p">
-              I have experience of more than one year in developing Web
-              Applications. I have worked intensively on reactJS library. During
-              the past year, I worked on two live projects majorly developed on
-              reactJS.
+              Experience of more than one year in developing Web Applications.
+              Worked intensively on reactJS library. During the past year,
+              worked on two live projects majorly developed on reactJS.
             </p>
           </div>
 
@@ -55,9 +54,10 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Mobile Applications</h5>
             <p className="info-p">
-              I have industry experience of more than two years in developing
-              native android applications. I worked on JAVA and google
-              API services. Whereas I have 6 months experience of developing hybrid mobile applications on react native.
+              Industry experience of more than two years in developing native
+              android applications. Worked on JAVA and google API services
+              diligently. Six months experience of developing hybrid mobile
+              applications on react native.
             </p>
           </div>
 
@@ -68,9 +68,9 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
-              I have experience of more than one year in backend development. My
-              expertise is in expressJS (MVC) with MySQL to create REST APIs. I
-              have entry-level knowledge of Graphql Apollo Server as well.
+              Experience of more than one year in backend development. Expertise
+              is in expressJS (MVC) with MySQL to create REST APIs. Plus
+              Entry-level knowledge of Graphql Apollo Server as well.
             </p>
           </div>
         </div>
