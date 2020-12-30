@@ -10,10 +10,10 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          Hi, I am Full Stack Developer living in Vancouver, Canada. I have two
-          years industry experience in native android application development.
-          Whereas I have more than one year experience in Web Application and
-          Backend Development.
+          Hi, I am Full Stack Developer living in Vancouver, Canada. Have two
+          years industry experience in native android application development,
+          more than one year experience in Web Application and Backend
+          Development.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
