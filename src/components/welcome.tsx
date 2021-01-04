@@ -11,7 +11,7 @@ const Welcome = () => {
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
           Hi, I am Full Stack Developer living in Vancouver, Canada. Have two
-          years industry experience in native android application development,
+          years industry experience in native Android Application Development,
           more than one year experience in Web Application and Backend
           Development.
         </p>
