@@ -19,7 +19,7 @@ const Welcome = () => {
         <p className="info-p avaliablity-p">
           {" "}
           I am open for full time jobs as{" "}
-          <span className="keywords">Android developer</span>
+          <span className="keywords">Mobile Application developer</span>
           {", "}
           <span className="keywords">Web Application Developer</span> and{" "}
           <span className="keywords">Backend Developer</span>.
