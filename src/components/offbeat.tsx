@@ -8,7 +8,10 @@ const Offbeat = () => {
         <img src={image} style={{ borderRadius: "8%" }} alt="app-screenshot" />
       </div>
       <div className="info-con">
-        <h4 className="title-h4">OFFbeat</h4>
+      <div className='title-con'>
+          <h4 className="title-h4">OFFbeat</h4>
+          <p className='date-p'>Sep 2020 - Dec 2020</p>
+        </div>
         <a
           className="website-link-a link-android"
           href="https://offbeatapp.ca/"

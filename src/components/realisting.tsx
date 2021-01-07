@@ -8,7 +8,10 @@ const Realisting = () => {
         <img src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
-        <h4 className="title-h4">Realisting</h4>
+      <div className='title-con'>
+          <h4 className="title-h4">Realisting</h4>
+          <p className='date-p'>Jan 2020 - Mar 2020</p>
+        </div>
         <a className="website-link-a" href="https://realistings.wmdd.ca" target="_blank"
                 rel='noopener noreferrer'>
           &nbsp;https://realistings.wmdd.ca
