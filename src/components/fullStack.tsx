@@ -37,26 +37,26 @@ const FullStack = () => {
           <div className="back-con subject-con">
             <div className="tech-con">
               <img src={nodejs} alt="" />
-              <p className="language-p">Nodejs [MVC REST APIs]</p>
+              <p className="language-p">Node.js</p>
             </div>
             <div className="tech-con">
               <img src={graphQL} alt="" />
-              <p className="language-p">Apollo Graphql</p>
+              <p className="language-p">Apollo GraphQL</p>
             </div>
           </div>
         </div>
 
         {/* front end */}
         <div>
-          <h5 className="stack-title-h5">Frontend</h5>
+          <h5 className="stack-title-h5">Languages/ Libraries</h5>
           <div className="front-con subject-con">
             <div className="tech-con">
               <img src={reactJS} alt="" />
-              <p className="language-p">ReactJS</p>
+              <p className="language-p">React</p>
             </div>
             <div className="tech-con">
               <img src={vanillaJS} alt="" />
-              <p className="language-p">vanilla JS</p>
+              <p className="language-p">JavaScript</p>
             </div>
             <div className="tech-con">
               <img src={typescript} alt="" />
