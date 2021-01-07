@@ -8,7 +8,10 @@ const Lovenders = () => {
         <img src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
-        <h4 className="title-h4">Lovenders</h4>
+      <div className='title-con'>
+          <h4 className="title-h4">Lovenders</h4>
+          <p className='date-p'>Nov 2018 - Mar 2019</p>
+        </div>
         <a
           className="website-link-a link-android"
           href="https://apkpure.com/lovenders/com.united.lovender"
