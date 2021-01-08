@@ -18,7 +18,7 @@ export default function Resume() {
       ?.classList.remove("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/14DQFTv0cPJhvgKxGwsC99kMZ2WPk27lL/view?usp=sharing'
+  const resume_download_url = 'https://drive.google.com/file/d/1howtFU9kSFTKqwjfcD3jC9Um7ae6BPNK/view?usp=sharing'
   
 
   return (
