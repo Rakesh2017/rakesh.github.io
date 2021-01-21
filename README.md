@@ -2,4 +2,4 @@
 
 Built on ReactJS + TypeScript
 
-https://www.rakesh-portfolio.com
+https://www.rakesh-portfolio.com/
