@@ -12,7 +12,7 @@ const Welcome = () => {
         <p className="info-p">
           Hi, I am Full Stack Developer living in Vancouver, Canada. Have two
           years industry experience in native Android Application Development,
-          more than one year experience in Web Application and Backend
+          more than one year experience in Web Application Development and Backend
           Development.
         </p>
         <hr className="divider" />
@@ -69,8 +69,7 @@ const Welcome = () => {
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
               Experience of more than one year in backend development. Expertise
-              is in expressJS (MVC) with MySQL to create REST APIs. Plus
-              Entry-level knowledge of Graphql Apollo Server as well.
+              is in expressJS (MVC) with MySQL to create REST APIs. Entry-level knowledge of Graphql Apollo Server as well.
             </p>
           </div>
         </div>
