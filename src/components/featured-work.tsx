@@ -7,21 +7,21 @@ import HappyFridge from "../components/happy-fridge";
 
 const FeaturedWork = () => {
   return (
-    <div id='work' className="featured-work-con">
+    <div id="work" className="featured-work-con">
       <div className="featured-work-title-con">
         <h3 className="featured-work-h3">Featured Work</h3>
       </div>
       <CarbonPrint />
       <hr className="divider-hr" />
-      <Offbeat />
-      <hr className="divider-hr" />
       <Lovenders />
+      <hr className="divider-hr" />
+      <Offbeat />
       <hr className="divider-hr" />
       <Realisting />
       <hr className="divider-hr" />
       <HappyFridge />
     </div>
-  );
-};
+  )
+}
 
 export default FeaturedWork;

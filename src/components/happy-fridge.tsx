@@ -24,7 +24,7 @@ const HappyFridge = () => {
           Happy Fridge recommends a recipe automatically based on maximization of
           user's leftovers. It has dashboard  where users can keep track of their leftover usage histories. <br />
           <br />
-          • Used expo to build the application <br />
+          • Used expo to build the application. <br />
           • Developed frontend of  an app using react JSX components and hooks. <br />
           • Implement the backend connections with apollo graphql client. <br />
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
