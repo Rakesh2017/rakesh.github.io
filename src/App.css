@@ -425,7 +425,6 @@ img {
   margin: 0 0.3rem 0;
   padding: 0.3rem;
   border: 2px solid #54b689;
-  border-radius: 0.2rem;
 }
 
 .main-resume-con-active .download-btn {
@@ -678,7 +677,7 @@ img {
 
 .welcome-con .about-me-con,
 .welcome-con .expertise-con {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 0.825rem;
   margin-right: 0.825rem;
 }
@@ -735,7 +734,6 @@ img {
 
 .welcome-con .expertise-con .title-h4 {
   text-transform: uppercase;
-  color: gray;
   text-align: center;
 }
 
@@ -754,16 +752,11 @@ img {
 }
 
 .welcome-con .expertise-con .expertise-main-con .info-con .image-con {
-  max-width: 92px;
+  max-width: 62px;
   height: auto;
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.welcome-con .expertise-con .expertise-main-con .info-con .image-con img {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
 }
 
 .welcome-con .expertise-con .expertise-main-con .info-con .title-h5 {
@@ -858,12 +851,15 @@ img {
 */
 .featured-work-con {
   background-color: #f5f5f5;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding-bottom: 2rem;
 }
 
 .featured-work-con .divider-hr {
   margin: 2rem 0 2rem 0;
+  height: 1px;
+  border: none;
+  background-color: grey;
 }
 
 .featured-work-con .featured-work-title-con {
@@ -895,6 +891,20 @@ img {
   padding-right: 1rem;
 }
 
+.featured-work-con .featured-work-subject-con .info-con .title-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featured-work-con .featured-work-subject-con .info-con .title-con .date-p {
+  font-size: 0.8rem;
+  color: grey;
+}
+
 .featured-work-con .featured-work-subject-con .info-con .website-link-a {
   text-decoration: none;
   color: #54b689;
@@ -922,7 +932,7 @@ img {
 }
 
 .featured-work-con .featured-work-subject-con .info-con .tags-nav {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 .featured-work-con .featured-work-subject-con .info-con .tags-nav ul {
@@ -1021,7 +1031,7 @@ img {
  -----------------------------------------------------------------------------
 */
 .stack-con {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 0.825rem;
   margin-right: 0.825rem;
 }
@@ -1239,6 +1249,10 @@ img {
   list-style-type: none;
 }
 
+.footer-con .contact-links-nav ul li {
+  margin-top: 0.375rem;
+}
+
 .footer-con .contact-links-nav ul li:hover a {
   color: #54b689;
 }
@@ -1246,10 +1260,93 @@ img {
 .footer-con .contact-links-nav ul a {
   text-decoration: none;
   color: black;
-  font-size: 0.825rem;
+  font-size: 0.925rem;
 }
 
 .footer-con .contact-links-nav ul a:hover {
   color: #54b689;
+}
+
+.footer-nav-con-active {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  z-index: 10000;
+  background-color: #ffa368;
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-nav-con-active {
+    max-width: 500px;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  }
+}
+
+.footer-nav-con-active ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-nav-con-active ul li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.footer-nav-con-active ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.775rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-nav-con-active ul li a {
+    font-size: 0.875rem;
+  }
+}
+
+.footer-nav-con-active ul li:hover {
+  background-color: #54b689;
+}
+
+.footer-nav-con-active ul li:hover a {
+  color: white;
+  width: 20%;
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-nav-con-active ul li:first-child {
+    border-top-left-radius: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-nav-con-active ul li:last-child {
+    border-top-right-radius: 0.7rem;
+  }
+}
+
+.footer-nav-con-disable {
+  display: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 /*# sourceMappingURL=App.css.map */
