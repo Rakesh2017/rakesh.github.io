@@ -21,7 +21,7 @@ const Lovenders = () => {
           &nbsp;https://apkpure.com/lovenders/com.united.lovender
         </a>
         <p className="info-p">
-          Lovenders is a Native dating Android Application build on JAVA. As of May 2020, it
+          Lovenders is a dating Android Application build on JAVA. As of May 2020, it
           has more than 35,000 active users. <br />
           <br />
           • Developed Whole Android client part. <br />

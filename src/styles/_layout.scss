@@ -539,3 +539,46 @@
     }
   }
 }
+
+// work experience
+
+.work-exp-con {
+  margin-top: $main-container-top-padding;
+  .work-exp-h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .temp-con {
+    background-color: $color-grey-accent;
+    padding: 1rem;
+    margin-top: $container-top-padding;
+    border-radius: 0.175rem;
+    .desi-con {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+      @media only screen and (min-width: $media-query-tablet) {
+        display: block;
+      }
+    }
+    .company {
+      font-weight: 600;
+    }
+    .date {
+      font-size: 0.8rem;
+      color: grey;
+    }
+  }
+  .exp-content-con {
+    margin: 0 $container-side-mobile-padding 0;
+    @media only screen and (min-width: $media-query-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+    @media only screen and (min-width: $media-query-desktop) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

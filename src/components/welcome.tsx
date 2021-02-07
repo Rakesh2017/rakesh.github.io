@@ -10,10 +10,10 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          Hi, I am Full Stack Developer living in Vancouver, Canada. Have two
-          years industry experience in native Android Application Development,
-          more than one year experience in Web Application Development and Backend
-          Development.
+          🌱 Hi, I am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span> living in Vancouver, Canada. Have two
+          years industry experience in Mobile Application Development,
+          more than one year experience in Web Development and
+          Backend Development.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
@@ -42,8 +42,8 @@ const Welcome = () => {
             <h5 className="title-h5">Web Applications</h5>
             <p className="info-p">
               Experience of more than one year in developing Web Applications.
-              Worked intensively on reactJS library. During the past year,
-              worked on two live projects majorly developed on reactJS.
+              Worked intensively on React library. During the past year,
+              worked on two live projects majorly developed on React, and Node.js.
             </p>
           </div>
 
@@ -69,7 +69,8 @@ const Welcome = () => {
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
               Experience of more than one year in backend development. Expertise
-              is in expressJS (MVC) with MySQL to create REST APIs. Entry-level knowledge of Graphql Apollo Server as well.
+              is in expressJS (MVC) with MySQL to create REST APIs. Entry-level
+              knowledge of Graphql Apollo Server as well.
             </p>
           </div>
         </div>
