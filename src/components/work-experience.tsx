@@ -1,0 +1,32 @@
+import React from "react";
+import ExpTemplate from "./exp-template";
+
+const WorkExperience = () => {
+  const dev = "Application Developer";
+  return (
+    <div className="work-exp-con">
+      <div>
+        <h4 className="work-exp-h4">Work Experience</h4>
+      </div>
+      <div className='exp-content-con'>
+        <ExpTemplate
+          company={"IntelligentOutsourcing"}
+          designation={dev}
+          date={"December 2018 - April 2019"}
+        />
+        <ExpTemplate
+          company={"CarByke"}
+          designation={dev}
+          date={"May 2018 - November 2018"}
+        />
+        <ExpTemplate
+          company={"Enhabyto IT Solutions"}
+          designation={dev}
+          date={"August 2017 - April 2018"}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default WorkExperience;

@@ -7,6 +7,7 @@ import FeaturedWork from "../src/components/featured-work";
 import Footer from "../src/components/footer";
 import Resume from "../src/components/resume";
 import FullStack from "../src/components/fullStack";
+import WorkExperience from "../src/components/work-experience";
 import FooterNav from "../src/components/footer-nav";
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           <main className="main-con">
             <section>
               <Welcome />
+            </section>
+            <section>
+              <WorkExperience />
             </section>
             <section>
               <FullStack />
