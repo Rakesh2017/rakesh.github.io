@@ -57,7 +57,7 @@ const Welcome = () => {
               Industry experience of more than two years in developing native
               android applications. Worked on JAVA and google API services
               diligently. Six months experience of developing hybrid mobile
-              applications on react native.
+              applications on React Native.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ const Welcome = () => {
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
               Experience of more than one year in backend development. Expertise
-              is in expressJS (MVC) with MySQL to create REST APIs. Entry-level
+              is in Express - Node.js (MVC) with MySQL to create REST APIs. Entry-level
               knowledge of Graphql Apollo Server as well.
             </p>
           </div>
