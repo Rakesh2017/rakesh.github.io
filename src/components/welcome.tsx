@@ -10,7 +10,7 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">welcome</h4>
         <p className="info-p">
-          🌱 Hi, I am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span> living in Vancouver, Canada. Have two
+          🌱 Hi, I am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span> living in Vancouver, Canada. Have more than two
           years industry experience in Mobile Application Development,
           more than one year experience in Web Development and
           Backend Development.
