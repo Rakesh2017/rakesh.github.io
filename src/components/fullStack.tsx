@@ -13,7 +13,7 @@ const FullStack = () => {
   return (
     <div id='fullstack' className="stack-con">
       <div className="stack-con">
-        <h3 className="stack-h3">Full Stack</h3>
+        <h4 className="stack-h3">Full Stack</h4>
       </div>
       <div className="stack-content-con">
         {/* mobile */}

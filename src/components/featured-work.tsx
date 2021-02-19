@@ -9,7 +9,7 @@ const FeaturedWork = () => {
   return (
     <div id="work" className="featured-work-con">
       <div className="featured-work-title-con">
-        <h3 className="featured-work-h3">Featured Work</h3>
+        <h4 className="featured-work-h3">Featured Work</h4>
       </div>
       <CarbonPrint />
       <hr className="divider-hr" />

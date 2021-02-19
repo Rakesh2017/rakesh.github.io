@@ -17,12 +17,12 @@ const WorkExperience = () => {
         <ExpTemplate
           company={"CarByke"}
           designation={dev}
-          date={"May 2018 - November 2018"}
+          date={"June 2018 - November 2018"}
         />
         <ExpTemplate
           company={"Enhabyto IT Solutions"}
           designation={dev}
-          date={"August 2017 - April 2018"}
+          date={"August 2017 - May 2018"}
         />
       </div>
     </div>
