@@ -8,21 +8,21 @@ const Welcome = () => {
     <div className="welcome-con">
       {/* about me */}
       <div className="about-me-con">
-        <h4 className="title-h4">welcome</h4>
+        <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, I am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span> living in Vancouver, Canada. Have more than two
+          🌱 Hi, My name's Rakesh. I {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */} live in Vancouver, Canada. Have more than two
           years industry experience in Mobile Application Development,
           more than one year experience in Web Development and
-          Backend Development.
+          Backend Development. I have been programming for more than four years and throughout these working years I have learnt optimal coding practices and working in team following various SDC such as agile.
+          Checkout some of my work and feel free to contact me via email or linkedin if you had like to work together.   
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
           {" "}
-          I am open for full time jobs as{" "}
+          I am open for full time job positions of{" "}
           <span className="keywords">Mobile Application developer</span>
-          {", "}
-          <span className="keywords">Web Application Developer</span> and{" "}
-          <span className="keywords">Backend Developer</span>.
+          {" "} and {" "}<span className="keywords">Web Application Developer</span>.
+          {/* <span className="keywords">Backend Developer</span>. */}
         </p>
       </div>
       {/* about me  [ENDS]*/}
