@@ -253,8 +253,13 @@
       font-size: 0.9rem;
       text-align: justify;
       .keywords {
-        font-weight: 700;
-        color: $color-green;
+        // font-weight: 700;
+        // color: $color-green;
+        border-radius: 0.1rem;
+        background-color: #54b689;
+        color: white;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
       }
       @media only screen and (min-width: $media-query-desktop) {
         max-width: 900px;
