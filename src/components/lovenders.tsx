@@ -8,9 +8,9 @@ const Lovenders = () => {
         <img src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
-      <div className='title-con'>
+        <div className="title-con">
           <h4 className="title-h4">Lovenders</h4>
-          <p className='date-p'>Nov 2018 - Mar 2019</p>
+          <p className="date-p">Nov 2018 - Mar 2019</p>
         </div>
         <a
           className="website-link-a link-android"
@@ -20,15 +20,29 @@ const Lovenders = () => {
         >
           &nbsp;https://apkpure.com/lovenders/com.united.lovender
         </a>
+        <br />
+        <button className="demo-btn">
+          <a
+            className="link-demo"
+            href="https://drive.google.com/file/d/1VA_pPG8EuWUVzDdUE_4UWOqPkPdfvlTd/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Quick Demo&nbsp;&nbsp;
+          </a>
+          <i className="fas fa-video icon-demo"></i>
+        </button>
+
         <p className="info-p">
-          Lovenders is a dating Android Application build on JAVA. As of May 2020, it
-          has more than 35,000 active users. <br />
+          Lovenders is a dating Android Application build on JAVA. As of May
+          2020, it has more than 35,000 active users. <br />
           <br />
           • Developed Whole Android client part. <br />
-          • Implement Right Left Swipe Actions with cards. <br />
-          • Integrated Google in app purchases supported for three currencies. <br />
-          • Built Chatting Feature on firebase. <br />
-          • Used Google SDK to integrate Google Login, Facebook endpoints to integrate Facebook login, Firebase Auth for Phone login.
+          • Implement Right Left Swipe Actions with cards. <br />• Integrated
+          Google in app purchases supported for three currencies. <br />
+          • Built Chatting Feature on firebase. <br />• Used Google SDK to
+          integrate Google Login, Facebook endpoints to integrate Facebook
+          login, Firebase Auth for Phone login.
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
         <nav className="tags-nav">
