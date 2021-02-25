@@ -587,3 +587,32 @@
     }
   }
 }
+
+.demo-btn {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 2px $color-green;
+  margin-top: 1rem;
+  display: flex;
+  transition: all 0.2s;
+  cursor: pointer;
+  &:hover {
+    border-color: black;
+  }
+  a {
+    text-decoration: none;
+    color: $color-green;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .icon-demo {
+    color: $color-green;
+  }
+  &:hover a {
+    color: black;
+  }
+  &:hover .icon-demo {
+    color: black;
+  }
+}
