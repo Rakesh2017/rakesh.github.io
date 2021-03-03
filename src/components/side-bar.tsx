@@ -67,7 +67,7 @@ const SideBar = () => {
           <button className="hire-me-btn">
             &nbsp;{" "}
             <a className="hire-a" href="#hire-me">
-              Hire Me
+              Get In Touch
             </a>{" "}
           </button>
         </div>
