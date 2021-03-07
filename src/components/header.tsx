@@ -16,7 +16,7 @@ const Header = () => {
           {/* designation */}
           <div>
             <h1 className="designation-h1">
-              Full Stack <span>developer</span>
+              Mobile and Front-end <span>developer</span>
             </h1>
           </div>
           {/* name */}
