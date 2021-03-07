@@ -23,6 +23,10 @@
     .designation-h1 {
       text-transform: capitalize;
       margin-bottom: 0;
+      font-size: 1.3rem;
+      @media only screen and (min-width: $media-query-tablet) {
+        font-size: 2rem;
+      }
       span {
         font-weight: 400;
       }
