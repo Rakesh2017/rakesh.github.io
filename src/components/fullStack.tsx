@@ -11,9 +11,9 @@ import typescript from "../images/logos/typescript.svg";
 
 const FullStack = () => {
   return (
-    <div id='fullstack' className="stack-con">
+    <div id="fullstack" className="stack-con">
       <div className="stack-con">
-        <h4 className="stack-h3">Full Stack</h4>
+        <h4 className="stack-h3">Technologies</h4>
       </div>
       <div className="stack-content-con">
         {/* mobile */}
@@ -22,26 +22,11 @@ const FullStack = () => {
           <div className="mobile-con subject-con">
             <div className="tech-con">
               <img src={android} alt="" />
-              <p className="language-p">Android</p>
+              <p className="language-p">Native Android</p>
             </div>
             <div className="tech-con">
               <img src={reactJS} alt="" />
               <p className="language-p">React Native</p>
-            </div>
-          </div>
-        </div>
-
-        {/* backend */}
-        <div>
-          <h5 className="stack-title-h5">Backend</h5>
-          <div className="back-con subject-con">
-            <div className="tech-con">
-              <img src={nodejs} alt="" />
-              <p className="language-p">Node.js</p>
-            </div>
-            <div className="tech-con">
-              <img src={graphQL} alt="" />
-              <p className="language-p">Apollo GraphQL</p>
             </div>
           </div>
         </div>
@@ -80,6 +65,21 @@ const FullStack = () => {
             <div className="tech-con">
               <img src={firebase} alt="" />
               <p className="language-p">Firebase & Firestore</p>
+            </div>
+          </div>
+        </div>
+
+        {/* backend */}
+        <div>
+          <h5 className="stack-title-h5">Backend</h5>
+          <div className="back-con subject-con">
+            <div className="tech-con">
+              <img src={nodejs} alt="" />
+              <p className="language-p">Node.js</p>
+            </div>
+            <div className="tech-con">
+              <img src={graphQL} alt="" />
+              <p className="language-p">Apollo GraphQL</p>
             </div>
           </div>
         </div>

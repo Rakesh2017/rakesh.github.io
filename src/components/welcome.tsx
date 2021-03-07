@@ -10,10 +10,8 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, My name's Rakesh. I {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */} live in Vancouver, Canada. Have more than two
-          years industry experience in Mobile Application Development,
-          more than one year experience in Web Development and
-          Backend Development. I have been programming for more than four years and throughout these working years I have learnt optimal coding practices and working in team following various SDC such as agile.
+          🌱 Hi, My name's Rakesh. I {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */} live in Vancouver, Canada. Have three years industry experience in Mobile Application Development,
+          more than one year experience in Web Development. I have been programming for more than four years and throughout these working years I have learnt optimal coding practices and working in team following various software development techniques.
           Checkout some of my work and feel free to contact me via email or linkedin if you had like to work together.   
         </p>
         <hr className="divider" />
@@ -68,7 +66,7 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
-              Experience of more than one year in backend development. Expertise
+              Experience of one year in backend development. Expertise
               is in Express - Node.js (MVC) with MySQL to create REST APIs. Entry-level
               knowledge of Graphql Apollo Server as well.
             </p>
