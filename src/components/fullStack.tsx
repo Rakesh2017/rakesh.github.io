@@ -8,6 +8,7 @@ import sql from "../images/logos/sql.svg";
 import firebase from "../images/logos/firebase.svg";
 import graphQL from "../images/logos/graphql.svg";
 import typescript from "../images/logos/typescript.svg";
+import github from "../images/logos/github.svg";
 
 const FullStack = () => {
   return (
@@ -80,6 +81,17 @@ const FullStack = () => {
             <div className="tech-con">
               <img src={graphQL} alt="" />
               <p className="language-p">Apollo GraphQL</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Version Control */}
+        <div>
+          <h5 className="stack-title-h5">Version Control</h5>
+          <div className="back-con subject-con">
+            <div className="tech-con">
+              <img src={github} alt="" />
+              <p className="language-p">GitHub</p>
             </div>
           </div>
         </div>
