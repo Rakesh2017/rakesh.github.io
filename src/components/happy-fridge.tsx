@@ -10,7 +10,7 @@ const HappyFridge = () => {
       <div className="info-con">
         <div className="title-con">
           <h4 className="title-h4">Happy Fridge</h4>
-          <p className="date-p">Dec 2020 - Mar 2021</p>
+          <p className="date-p">Dec 2020 - Feb 2021</p>
         </div>
         {/* <a
           className="website-link-a link-android"
