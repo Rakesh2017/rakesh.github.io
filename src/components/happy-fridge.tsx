@@ -34,7 +34,7 @@ const HappyFridge = () => {
         <p className="info-p">
           Happy Fridge recommends a recipe automatically based on maximization
           of user's leftovers. It has dashboard where users can keep track of
-          their leftover usage histories. <br />
+          their leftover usage histories. This project is developed under 2021 WEF Competition for Project Excellence. <br />
           <br />
           • Used expo to build the application. <br />
           • Developed frontend of an app using react JSX components and hooks.{" "}
