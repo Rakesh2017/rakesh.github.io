@@ -20,12 +20,25 @@ const HappyFridge = () => {
         >
           &nbsp;https://apkpure.com/lovenders/com.united.lovender
         </a> */}
+        <button className="demo-btn">
+          <a
+            className="link-demo"
+            href="https://drive.google.com/file/d/1cvuCuXphjyqftilKb-4lfXyNZ6CacOaW/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Quick Demo&nbsp;&nbsp;
+          </a>
+          <i className="fas fa-video icon-demo"></i>
+        </button>
         <p className="info-p">
-          Happy Fridge recommends a recipe automatically based on maximization of
-          user's leftovers. It has dashboard  where users can keep track of their leftover usage histories. <br />
+          Happy Fridge recommends a recipe automatically based on maximization
+          of user's leftovers. It has dashboard where users can keep track of
+          their leftover usage histories. <br />
           <br />
           • Used expo to build the application. <br />
-          • Developed frontend of  an app using react JSX components and hooks. <br />
+          • Developed frontend of an app using react JSX components and hooks.{" "}
+          <br />
           • Implement the backend connections with apollo graphql client. <br />
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
