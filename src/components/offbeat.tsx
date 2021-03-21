@@ -8,9 +8,9 @@ const Offbeat = () => {
         <img src={image} style={{ borderRadius: "8%" }} alt="app-screenshot" />
       </div>
       <div className="info-con">
-      <div className='title-con'>
+        <div className="title-con">
           <h4 className="title-h4">OFFbeat</h4>
-          <p className='date-p'>Sep 2020 - Dec 2020</p>
+          <p className="date-p">Sep 2020 - Dec 2020</p>
         </div>
         <a
           className="website-link-a link-android"
@@ -20,9 +20,19 @@ const Offbeat = () => {
         >
           &nbsp;https://www.offbeatapp.ca/
         </a>
+        <button className="demo-btn" style={{color:'grey', border:'solid grey 1px'}}>
+          <a
+            className="link-demo"
+            rel="noopener noreferrer"
+            style={{color:'grey'}}
+          >
+            Coming Soon&nbsp;&nbsp;
+          </a>
+          <i style={{color:'grey'}} className="fas fa-video icon-demo"></i>
+        </button>
         <p className="info-p">
-          With OFFbeat, you can turn your travel journeys into an amazing personal
-          adventure journal and even share it with world. <br /> <br />
+          With OFFbeat, you can turn your travel journeys into an amazing
+          personal adventure journal and even share it with world. <br /> <br />
           • Developed the backend with nodeJS. <br />
           • Followed MVC pattern to develop REST APIs. <br />
           • Implemented OAuth 2.0 for authentication. <br />
