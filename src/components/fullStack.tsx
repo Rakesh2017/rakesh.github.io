@@ -9,6 +9,9 @@ import firebase from "../images/logos/firebase.svg";
 import graphQL from "../images/logos/graphql.svg";
 import typescript from "../images/logos/typescript.svg";
 import github from "../images/logos/github.svg";
+import jira from "../images/logos/jira.svg";
+import slack from "../images/logos/slack.svg";
+import trello from "../images/logos/trello.svg";
 
 const FullStack = () => {
   return (
@@ -81,6 +84,25 @@ const FullStack = () => {
             <div className="tech-con">
               <img src={graphQL} alt="" />
               <p className="language-p">Apollo GraphQL</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Project Communication */}
+        <div>
+          <h5 className="stack-title-h5">Project Communication</h5>
+          <div className="back-con subject-con">
+            <div className="tech-con">
+              <img src={slack} alt="" />
+              <p className="language-p">Slack</p>
+            </div>
+            <div className="tech-con">
+              <img src={jira} alt="" />
+              <p className="language-p">Jira</p>
+            </div>
+            <div className="tech-con">
+              <img src={trello} alt="" />
+              <p className="language-p">Trello</p>
             </div>
           </div>
         </div>

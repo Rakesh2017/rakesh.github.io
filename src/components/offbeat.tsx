@@ -20,15 +20,18 @@ const Offbeat = () => {
         >
           &nbsp;https://www.offbeatapp.ca/
         </a>
-        <button className="demo-btn" style={{color:'grey', border:'solid grey 1px'}}>
+        <button
+          className="demo-btn"
+        >
           <a
             className="link-demo"
+            href="https://drive.google.com/file/d/1mNFcq2OdlBtbaK-kxMU_7OEPpwP9_cW3/view?usp=sharing"
+            target="_blank"
             rel="noopener noreferrer"
-            style={{color:'grey'}}
           >
-            Coming Soon&nbsp;&nbsp;
+            Quick Demo&nbsp;&nbsp;
           </a>
-          <i style={{color:'grey'}} className="fas fa-video icon-demo"></i>
+          <i className="fas fa-video icon-demo"></i>
         </button>
         <p className="info-p">
           With OFFbeat, you can turn your travel journeys into an amazing
