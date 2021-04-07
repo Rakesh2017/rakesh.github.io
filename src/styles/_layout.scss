@@ -510,11 +510,21 @@
   .stack-content-con {
     @media only screen and (min-width: $media-query-tablet) {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-gap: 3rem;
     }
     @media only screen and (min-width: $media-query-desktop) {
-      grid-template-columns: 1fr 1fr 1fr;
+      //grid-template-columns: 1fr 1fr 1fr;
+      .first-block {
+        display: grid;
+        grid-template-columns: 2fr 3fr 1fr;
+        grid-gap: 3rem;
+      }
+      .second-block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+      }
     }
     .stack-title-h5 {
       text-align: center;
