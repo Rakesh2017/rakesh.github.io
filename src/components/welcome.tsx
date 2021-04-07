@@ -10,16 +10,24 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, My name's Rakesh. I {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */} live in Vancouver, Canada. Have three years industry experience in Mobile Application Development,
-          more than one year experience in Web Development. I have been programming for more than four years and throughout these working years I have learnt optimal coding practices and working in team following various software development techniques.
-          Checkout some of my work and feel free to contact me via email or linkedin if you had like to work together.   
+          🌱 Hi, My name's Rakesh. I{" "}
+          {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */}{" "}
+          live in Vancouver, Canada. Have three years industry experience in
+          Mobile Application Development, more than one year experience in Web
+          Development. I have been programming for more than four years and
+          throughout these working years I have learnt optimal coding practices
+          and working in team following various software development techniques.
+          Checkout some of my work and feel free to contact me via email or
+          linkedin if you had like to work together.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
           {" "}
           I am open for full time job positions of{" "}
-          <span className="keywords">Mobile Application developer</span>
-          {" "} and {" "}<span className="keywords">Web Application Developer</span>.
+          <span className="keywords">
+            Mobile Application developer
+          </span> and{" "}
+          <span className="keywords">Web Application Developer</span>.
           {/* <span className="keywords">Backend Developer</span>. */}
         </p>
       </div>
@@ -40,8 +48,8 @@ const Welcome = () => {
             <h5 className="title-h5">Web Applications</h5>
             <p className="info-p">
               Experience of more than one year in developing Web Applications.
-              Worked intensively on React library. During the past year,
-              worked on two live projects majorly developed on React, and Node.js.
+              Worked intensively on React library. During the past year, worked
+              on two live projects majorly developed on React, and Node.js.
             </p>
           </div>
 
@@ -52,10 +60,10 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Mobile Applications</h5>
             <p className="info-p">
-              Industry experience of more than two years in developing native
-              android applications. Worked on JAVA and google API services
-              diligently. Six months experience of developing hybrid mobile
-              applications on React Native.
+              Have industry experience of more than two years in developing
+              native android applications. Excellent understanding of the latest
+              android development architecture MVVM with Kotlin and Java. Have six months of experience in
+              developing hybrid mobile applications on React Native.
             </p>
           </div>
 
@@ -66,9 +74,9 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Backend Development</h5>
             <p className="info-p">
-              Experience of one year in backend development. Expertise
-              is in Express - Node.js (MVC) with MySQL to create REST APIs. Entry-level
-              knowledge of Graphql Apollo Server as well.
+              Experience of one year in backend development. Expertise is in
+              Express - Node.js (MVC) with MySQL to create REST APIs.
+              Entry-level knowledge of Graphql Apollo Server as well.
             </p>
           </div>
         </div>
