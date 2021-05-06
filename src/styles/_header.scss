@@ -71,12 +71,12 @@
           margin-left: 1rem;
         }
         .fab {
-          color: $color-green;
+          color: white;
           font-size: 1.7rem;
           transition: all 0.5s;
         }
         .fab:hover {
-          color: white;
+          color: $color-green;
           transform: rotate(360deg);
         }
       }
