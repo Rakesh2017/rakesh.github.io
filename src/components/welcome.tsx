@@ -18,17 +18,19 @@ const Welcome = () => {
           throughout these working years I have learnt optimal coding practices
           and working in team following various software development techniques.
           Checkout some of my work and feel free to contact me via email or
-          linkedin if you had like to work together.
+          Linkedin if you had like to work together.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
-          {" "}
+          {/* {" "}
           I am open for full time job positions of{" "}
           <span className="keywords">
             Mobile Application developer
           </span> and{" "}
           <span className="keywords">Web Application Developer</span>.
-          {/* <span className="keywords">Backend Developer</span>. */}
+          <span className="keywords">Backend Developer</span>. */}
+
+        I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However I am open for freelancing projects based on native android, ReactJS web apps, front-end development.
         </p>
       </div>
       {/* about me  [ENDS]*/}
@@ -61,8 +63,8 @@ const Welcome = () => {
             <h5 className="title-h5">Mobile Applications</h5>
             <p className="info-p">
               Have industry experience of more than two years in developing
-              native android applications. Excellent understanding of the latest
-              android development architecture MVVM with Kotlin and Java. Have six months of experience in
+              native android applications. Excellent understanding of 
+              android MVP architecture with Kotlin and Java. Have six months of experience in
               developing hybrid mobile applications on React Native.
             </p>
           </div>
