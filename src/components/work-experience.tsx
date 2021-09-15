@@ -2,13 +2,18 @@ import React from "react";
 import ExpTemplate from "./exp-template";
 
 const WorkExperience = () => {
-  const dev = "Application Developer";
+  const dev = "Android Developer";
   return (
     <div className="work-exp-con">
       <div>
         <h4 className="work-exp-h4">Work Experience</h4>
       </div>
       <div className='exp-content-con'>
+      <ExpTemplate
+          company={"Skythinking Technology Co. Ltd."}
+          designation={dev}
+          date={"May 2021 - current"}
+        />
         <ExpTemplate
           company={"IntelligentOutsourcing"}
           designation={dev}

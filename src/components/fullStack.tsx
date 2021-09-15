@@ -44,12 +44,12 @@ const FullStack = () => {
             <h5 className="stack-title-h5">Languages/ Libraries</h5>
             <div className="front-con subject-con">
               <div className="tech-con">
-                <img src={java} alt="" />
-                <p className="language-p">Java</p>
-              </div>
-              <div className="tech-con">
                 <img src={kotlin} alt="" />
                 <p className="language-p">Kotlin</p>
+              </div>
+              <div className="tech-con">
+                <img src={java} alt="" />
+                <p className="language-p">Java</p>
               </div>
               <div className="tech-con">
                 <img src={reactJS} alt="" />

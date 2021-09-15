@@ -10,7 +10,7 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, My name's Rakesh. I{" "}
+          🌱 Hi, My name is Rakesh. I{" "}
           {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */}{" "}
           live in Vancouver, Canada. Have three years industry experience in
           Mobile Application Development, more than one year experience in Web
@@ -64,7 +64,7 @@ const Welcome = () => {
             <p className="info-p">
               Have industry experience of more than two years in developing
               native android applications. Excellent understanding of 
-              android MVP architecture with Kotlin and Java. Have six months of experience in
+              android MVP and MVVM architecture with Kotlin and Java. Have six months of experience in
               developing hybrid mobile applications on React Native.
             </p>
           </div>
