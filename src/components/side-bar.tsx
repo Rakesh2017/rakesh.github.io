@@ -17,7 +17,7 @@ const SideBar = () => {
     document.querySelector(".super-parent-con-active")?.classList.toggle("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/1nYK194sZPg6doAHu3Z-YK-h-ZHFaM1XA/view?usp=sharing'; 
+  const resume_download_url = 'https://drive.google.com/file/d/13Qkn9Au9skZp55KJMXHygEiWX86R2gC2/view?usp=sharing'; 
   
   return (
     <div className="side-bar-con minimized">

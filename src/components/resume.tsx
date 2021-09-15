@@ -1,5 +1,5 @@
 import React from "react";
-import resume_image from "../../src/images/rakesh-resume.jpg";
+import resume_image from "../../src/images/rakesh-resume1.jpg";
 
 export default function Resume() {
   function hide_resume(): any {
@@ -18,7 +18,7 @@ export default function Resume() {
       ?.classList.remove("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/1nYK194sZPg6doAHu3Z-YK-h-ZHFaM1XA/view?usp=sharing'
+  const resume_download_url = 'https://drive.google.com/file/d/13Qkn9Au9skZp55KJMXHygEiWX86R2gC2/view?usp=sharing'
   
 
   return (
