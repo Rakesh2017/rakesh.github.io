@@ -30,7 +30,7 @@ const Welcome = () => {
           <span className="keywords">Web Application Developer</span>.
           <span className="keywords">Backend Developer</span>. */}
 
-        I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However I am open for freelancing projects based on native android, ReactJS web apps, front-end development.
+        I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However, I will be open for full time inter-mediate Android Application Developer position by April 2022.
         </p>
       </div>
       {/* about me  [ENDS]*/}
@@ -62,10 +62,10 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Mobile Applications</h5>
             <p className="info-p">
-              Have industry experience of more than two years in developing
+              Have industry experience of three years in developing
               native android applications. Excellent understanding of 
-              android MVP and MVVM architecture with Kotlin and Java. Have six months of experience in
-              developing hybrid mobile applications on React Native.
+              android MVVM and MVP architecture with Kotlin and Java. Have one year of experience in
+              Kotlin and two years in Java.
             </p>
           </div>
 
