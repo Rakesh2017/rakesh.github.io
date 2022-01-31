@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/carbonfootprint.png";
+import image from "../images/emc.png";
 
 const EMC = () => {
   return (
@@ -13,20 +13,34 @@ const EMC = () => {
           <p className='date-p'>May 2021 - Current</p>
         </div>
         <a
-          className="website-link-a"
-          href="https://www.carbonprint.ca"
+          className="website-link-a link-android"
+          href="https://www.yibeivip.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp;https://www.carbonprint.ca
+          &nbsp;https://www.yibeivip.com
         </a>
+        <div className="coming-soon-div">
+          <button className="demo-btn-disabled" id="testBtn" title="coming soon">
+            <a
+              className="link-demo"
+              // todo: when enabled
+            >
+              Quick Demo&nbsp;&nbsp;
+            </a>
+            <i className="fas fa-video icon-demo"></i>
+          </button>
+          <p className="coming-soon-p">coming soon</p><i className="fas fa-bolt icon-demo"></i>
+        </div>
         <p className="info-p">
-          EMC is a live sports betting and streaming App. It has betting and streaming available for hundreds of leagues played in various games around the globe. <br /> <br />
-          • Worked in a team of twelve android developers, backend developers and UI/UX developers. <br />
+          EMC is a live sports betting and streaming App. It has betting and streaming available for hundreds of leagues played in various games around the globe. <br /> 
+           <br />
+          • Collaborated with a team of fifteen members composed of android developers, back-end developers, UI/UX developers, and product manager. Team worked on agile software development process	 with routine and weekly sprints. Every development was documented properly at end of the day. <br />
+          • App extensively requires complex data handling and manipulation with absolute handling of financial calculations. To manage this, I have learned and implemented optimal data structures which can handle large sets of data and calculations.<br />
           • Mainly worked on MVP and MVVM architecture built on Kotlin. <br />
           • Implemented best practices to reduce redundancy and increase efficiency. <br />
-          • Connect the APIs using Retrofit and android life-cycle aware components.{" "}
-          <br />• Used the latest methodologies suggested by android development architecture documentation.
+          • Connect the APIs using Retrofit and android life-cycle aware components.{" "}<br />
+          • Used the latest methodologies suggested by android development architecture documentation.<br />        
         </p>
         <nav className="tags-nav">
           <ul>

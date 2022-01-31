@@ -17,7 +17,7 @@ const SideBar = () => {
     document.querySelector(".super-parent-con-active")?.classList.toggle("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/13Qkn9Au9skZp55KJMXHygEiWX86R2gC2/view?usp=sharing'; 
+  const resume_download_url = 'https://drive.google.com/file/d/1DAhfnhIdhSjNJbc-N-x41MtKwrWpcF8R/view?usp=sharing'; 
   
   return (
     <div className="side-bar-con minimized">
@@ -45,14 +45,15 @@ const SideBar = () => {
           </p>
         </div>
         <div className="resume-con disable toggle-con-3">
-          <button
+           {/* view resume */}
+          {/* <button
             className="view-resume-btn"
             onClick={() => {
               show_resume();
             }}
           >
             &nbsp;View Resume
-          </button>
+          </button> */}
           <button className="download-resume-btn">
             &nbsp;
             <a

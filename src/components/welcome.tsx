@@ -13,12 +13,25 @@ const Welcome = () => {
           🌱 Hi, My name is Rakesh. I{" "}
           {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */}{" "}
           live in Vancouver, Canada. Have three years industry experience in
-          Mobile Application Development, more than one year experience in Web
-          Development. I have been programming for more than four years and
-          throughout these working years I have learnt optimal coding practices
+          Mobile Application Development, one year experience in Web
+          Development. I have been programming for four years and
+          throughout these working experiences, I have learnt optimal coding practices
           and working in team following various software development techniques.
-          Checkout some of my work and feel free to contact me via email or
-          Linkedin if you had like to work together.
+          Checkout some of my work and feel free to contact me via <a
+              href="mailto:rakesh22717@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-email"
+              title="rakesh22717@gmail.com"
+            >email
+          </a> or <a
+                href="https://www.linkedin.com/in/rakesh07/"
+                target="_blank"
+                rel="noopener noreferrer"
+              className="link-email"
+              title="linkedin.com/in/rakesh07/"
+            >linkedin
+          </a> if you had like to work together.
         </p>
         <hr className="divider" />
         <p className="info-p avaliablity-p">
