@@ -21,16 +21,17 @@ const EMC = () => {
           &nbsp;https://www.yibeivip.com
         </a>
         <div className="coming-soon-div">
-          <button className="demo-btn-disabled" id="testBtn" title="coming soon">
-            <a
-              className="link-demo"
-              // todo: when enabled
-            >
-              Quick Demo&nbsp;&nbsp;
-            </a>
-            <i className="fas fa-video icon-demo"></i>
-          </button>
-          <p className="coming-soon-p">coming soon</p><i className="fas fa-bolt icon-demo"></i>
+        <button className="demo-btn">
+          <a
+            className="link-demo"
+            href="https://drive.google.com/file/d/1_-oOMbDVOCDuhZmMXVLv1SRut7Ae0o-1/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Quick Demo&nbsp;&nbsp;
+          </a>
+          <i className="fas fa-video icon-demo"></i>
+        </button>
         </div>
         <p className="info-p">
           EMC is a live sports betting and streaming App. It has betting and streaming available for hundreds of leagues played in various games around the globe. <br /> 
