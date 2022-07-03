@@ -33,8 +33,8 @@ const Welcome = () => {
             >linkedin
           </a> if you had like to work together.
         </p>
-        <hr className="divider" />
-        <p className="info-p avaliablity-p">
+        {/* <hr className="divider" /> */}
+        {/* <p className="info-p avaliablity-p"> */}
           {/* {" "}
           I am open for full time job positions of{" "}
           <span className="keywords">
@@ -43,8 +43,8 @@ const Welcome = () => {
           <span className="keywords">Web Application Developer</span>.
           <span className="keywords">Backend Developer</span>. */}
 
-        I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However, I will be open for full time inter-mediate Android Application Developer position by April 2022.
-        </p>
+        {/* I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However, I will be open for full time inter-mediate Android Application Developer position by April 2022. */}
+        {/* </p> */}
       </div>
       {/* about me  [ENDS]*/}
 
@@ -56,6 +56,20 @@ const Welcome = () => {
 
         <div className="expertise-main-con">
           {/* 1 */}
+          <div className="expertise-two-con info-con">
+            <div className="image-con">
+              <img src={smartphone} alt="icon 2" />
+            </div>
+            <h5 className="title-h5">Mobile Applications</h5>
+            <p className="info-p">
+              Have industry experience of three years in developing
+              native android applications. Excellent understanding of 
+              android MVVM and MVP architecture with Kotlin and Java. Have one year of experience in
+              Kotlin and two years in Java.
+              Worked on multliple projects built on kotlin, corutinesx, livedata, flows, retrofit, hilt, and room.
+            </p>
+          </div>
+          {/* 2 */}
           <div className="expertise-one-con info-con">
             <div className="image-con">
               <img src={web} alt="icon 1" />
@@ -68,32 +82,6 @@ const Welcome = () => {
             </p>
           </div>
 
-          {/* 2 */}
-          <div className="expertise-two-con info-con">
-            <div className="image-con">
-              <img src={smartphone} alt="icon 2" />
-            </div>
-            <h5 className="title-h5">Mobile Applications</h5>
-            <p className="info-p">
-              Have industry experience of three years in developing
-              native android applications. Excellent understanding of 
-              android MVVM and MVP architecture with Kotlin and Java. Have one year of experience in
-              Kotlin and two years in Java.
-            </p>
-          </div>
-
-          {/* 3 */}
-          <div className="expertise-three-con info-con">
-            <div className="image-con">
-              <img src={servers} alt="icon 3" />
-            </div>
-            <h5 className="title-h5">Backend Development</h5>
-            <p className="info-p">
-              Experience of one year in backend development. Expertise is in
-              Express - Node.js (MVC) with MySQL to create REST APIs.
-              Entry-level knowledge of Graphql Apollo Server as well.
-            </p>
-          </div>
         </div>
       </div>
       {/* experience [ENDS] */}
@@ -102,3 +90,17 @@ const Welcome = () => {
 };
 
 export default Welcome;
+
+
+          // {/* 3 */}
+          // <div className="expertise-three-con info-con">
+          //   <div className="image-con">
+          //     <img src={servers} alt="icon 3" />
+          //   </div>
+          //   <h5 className="title-h5">Backend Development</h5>
+          //   <p className="info-p">
+          //     Experience of one year in backend development. Expertise is in
+          //     Express - Node.js (MVC) with MySQL to create REST APIs.
+          //     Entry-level knowledge of Graphql Apollo Server as well.
+          //   </p>
+          // </div>

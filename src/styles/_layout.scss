@@ -292,7 +292,7 @@
     }
     .expertise-main-con {
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
       grid-gap: 1rem;
       margin-top: $container-top-padding;
       .info-con {
@@ -318,7 +318,7 @@
       }
       @media only screen and (min-width: $media-query-desktop) {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
       }
     }

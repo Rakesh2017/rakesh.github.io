@@ -10,7 +10,7 @@ const CarbonPrint = () => {
       <div className="info-con">
         <div className='title-con'>
           <h4 className="title-h4">Carbon Print</h4>
-          <p className='date-p'>April 2020 - Jul 2020</p>
+          {/* <p className='date-p'>April 2020 - Jul 2020</p> */}
         </div>
         <a
           className="website-link-a"

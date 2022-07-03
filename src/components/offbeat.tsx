@@ -10,7 +10,7 @@ const Offbeat = () => {
       <div className="info-con">
         <div className="title-con">
           <h4 className="title-h4">OFFbeat</h4>
-          <p className="date-p">Sep 2020 - Dec 2020</p>
+          {/* <p className="date-p">Sep 2020 - Dec 2020</p> */}
         </div>
         <a
           className="website-link-a link-android"
