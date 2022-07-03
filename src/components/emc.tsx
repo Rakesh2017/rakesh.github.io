@@ -10,7 +10,7 @@ const EMC = () => {
       <div className="info-con">
         <div className='title-con'>
           <h4 className="title-h4">E.M.C</h4>
-          <p className='date-p'>May 2021 - Current</p>
+          {/* <p className='date-p'>May 2021 - Current</p> */}
         </div>
         <a
           className="website-link-a link-android"

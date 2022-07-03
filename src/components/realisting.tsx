@@ -10,7 +10,7 @@ const Realisting = () => {
       <div className="info-con">
         <div className="title-con">
           <h4 className="title-h4">Realisting</h4>
-          <p className="date-p">Jan 2020 - Mar 2020</p>
+          {/* <p className="date-p">Jan 2020 - Mar 2020</p> */}
         </div>
         <a
           className="website-link-a"

@@ -10,7 +10,7 @@ const Lovenders = () => {
       <div className="info-con">
         <div className="title-con">
           <h4 className="title-h4">Lovenders</h4>
-          <p className="date-p">Nov 2018 - Mar 2019</p>
+          {/* <p className="date-p">Nov 2018 - Mar 2019</p> */}
         </div>
         <a
           className="website-link-a link-android"

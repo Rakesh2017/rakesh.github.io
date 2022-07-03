@@ -10,9 +10,14 @@ const WorkExperience = () => {
       </div>
       <div className='exp-content-con'>
       <ExpTemplate
+          company={"Inversoft Solutions"}
+          designation={dev}
+          date={"May 2022 - current"}
+        />
+      <ExpTemplate
           company={"Skythinking Technology Co. Ltd."}
           designation={dev}
-          date={"May 2021 - current"}
+          date={"May 2021 - April 2022"}
         />
         <ExpTemplate
           company={"IntelligentOutsourcing"}

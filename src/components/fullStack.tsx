@@ -14,6 +14,8 @@ import slack from "../images/logos/slack.svg";
 import trello from "../images/logos/trello.svg";
 import java from "../images/logos/java.svg";
 import kotlin from "../images/logos/kotlin.svg";
+import bitbucket from "../images/logos/bitbucket.svg";
+import confluence from "../images/logos/confluence.svg";
 
 const FullStack = () => {
   return (
@@ -78,6 +80,10 @@ const FullStack = () => {
                 <img src={github} alt="" />
                 <p className="language-p">GitHub</p>
               </div>
+              <div className="tech-con">
+                <img src={bitbucket} alt="" />
+                <p className="language-p">Bitbucket</p>
+              </div>
             </div>
           </div>
         </div>
@@ -99,7 +105,7 @@ const FullStack = () => {
           </div>
 
           {/* backend */}
-          <div>
+          {/* <div>
             <h5 className="stack-title-h5">Backend</h5>
             <div className="back-con subject-con">
               <div className="tech-con">
@@ -111,11 +117,11 @@ const FullStack = () => {
                 <p className="language-p">Apollo GraphQL</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Project Communication */}
           <div>
-            <h5 className="stack-title-h5">Project Communication</h5>
+            <h5 className="stack-title-h5">Project Management</h5>
             <div className="back-con subject-con">
               <div className="tech-con">
                 <img src={slack} alt="" />
@@ -129,8 +135,13 @@ const FullStack = () => {
                 <img src={trello} alt="" />
                 <p className="language-p">Trello</p>
               </div>
+              <div className="tech-con">
+                <img src={confluence} alt="" />
+                <p className="language-p">Confluence</p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
