@@ -10,9 +10,7 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, My name is Rakesh. I{" "}
-          {/* am <span style={{borderRadius:'0.1rem', backgroundColor:'#54b689', color:'white', paddingLeft:'0.1rem', paddingRight:'0.1rem'}}>Full Stack Developer</span>  */}{" "}
-          live in Vancouver, Canada. Have three years industry experience in
+          🌱 Hi, My name is Rakesh. Have three years industry experience in
           Mobile Application Development, one year experience in Web
           Development. I have been programming for four years and
           throughout these working experiences, I have learnt optimal coding practices
