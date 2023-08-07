@@ -10,11 +10,8 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-          🌱 Hi, My name is Rakesh. Have three years industry experience in
-          Mobile Application Development, one year experience in Web
-          Development. I have been programming for four years and
-          throughout these working experiences, I have learnt optimal coding practices
-          and working in team following various software development techniques.
+        🌱 Hi, I'm Rakesh, a developer with four years of experience in Mobile Application Development and one year in Web Development. Proficient in Java, Kotlin, HTML, CSS, JavaScript, and Node.js. Skilled in agile methodologies and delivering efficient, scalable code. Passionate about creating intuitive user experiences and driving innovation.
+        <br/>Working on various projects has honed my abilities in delivering efficient, maintainable, and scalable code. I am well-versed in implementing optimal coding practices and staying up-to-date with the latest industry trends. Collaborating within diverse teams, I have acquired valuable experience in using agile methodologies and ensuring seamless communication throughout the software development lifecycle.
           Checkout some of my work and feel free to contact me via <a
               href="mailto:rakesh22717@gmail.com"
               target="_blank"
