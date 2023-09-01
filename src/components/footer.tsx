@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 const Footer = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false)
 
-  const phoneNumber = "+1(604)-773-0344";
-  const telLink = `tel:${phoneNumber}`;
+  const phoneNumber = "+1(604)-773-0344"
+  const telLink = `tel:${phoneNumber}`
+  const tooltipText = "Click to reveal number"
 
   const showPhoneNumber = () => {
     setIsVisible(true);
@@ -39,18 +40,18 @@ const Footer = () => {
             </a>
           </li>
           {/* phone */}
-      <li className="link-phone-li" onClick={showPhoneNumber}>
-        <a href={telLink}>
-          <i className="fas fa-phone-square"></i>
-        </a>
-        &nbsp;
-        {isVisible ? (
-          <a href={telLink}>{phoneNumber}</a>
-        ) : (
-          "+1(604)-773-xxxx"
-        )}
-      </li>
-          {/* linkdein */}
+          <li className="link-phone-li" onClick={showPhoneNumber} title={tooltipText}>
+            <a href={telLink}>
+              <i className="fas fa-phone-square"></i>
+            </a>
+            &nbsp;
+            {isVisible ? (
+              <a href={telLink}>{phoneNumber}</a>
+            ) : (
+              "+1(604)-773-xxxx"
+            )}
+          </li>
+          {/* LinkedIn */}
           <li className="link-linkedin-li">
             <a
               href="https://www.linkedin.com/in/rakesh07/"
