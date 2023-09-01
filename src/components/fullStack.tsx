@@ -16,6 +16,8 @@ import java from "../images/logos/java.svg";
 import kotlin from "../images/logos/kotlin.svg";
 import bitbucket from "../images/logos/bitbucket.svg";
 import confluence from "../images/logos/confluence.svg";
+import appcentre from "../images/logos/appcentre.png";
+import bitrise from "../images/logos/bitrise.png";
 
 const FullStack = () => {
   return (
@@ -89,39 +91,10 @@ const FullStack = () => {
         </div>
 
         <div className="second-block">
-          {/* database */}
-          <div>
-            <h5 className="stack-title-h5">Database</h5>
-            <div className="front-con subject-con">
-              <div className="tech-con">
-                <img src={sql} alt="" />
-                <p className="language-p">MySQL</p>
-              </div>
-              <div className="tech-con">
-                <img src={firebase} alt="" />
-                <p className="language-p">Firebase & Firestore</p>
-              </div>
-            </div>
-          </div>
-
-          {/* backend */}
-          {/* <div>
-            <h5 className="stack-title-h5">Backend</h5>
-            <div className="back-con subject-con">
-              <div className="tech-con">
-                <img src={nodejs} alt="" />
-                <p className="language-p">Node.js</p>
-              </div>
-              <div className="tech-con">
-                <img src={graphQL} alt="" />
-                <p className="language-p">Apollo GraphQL</p>
-              </div>
-            </div>
-          </div> */}
 
           {/* Project Communication */}
           <div>
-            <h5 className="stack-title-h5">Project Management</h5>
+            <h5 className="stack-title-h5">Project Management & CI/CD</h5>
             <div className="back-con subject-con">
               <div className="tech-con">
                 <img src={slack} alt="" />
@@ -138,6 +111,29 @@ const FullStack = () => {
               <div className="tech-con">
                 <img src={confluence} alt="" />
                 <p className="language-p">Confluence</p>
+              </div>
+              <div className="tech-con">
+                <img src={appcentre} alt="" />
+                <p className="language-p">App Centre</p>
+              </div>
+              <div className="tech-con">
+                <img src={bitrise} alt="" />
+                <p className="language-p">Bitrise</p>
+              </div>
+            </div>
+          </div>
+
+          {/* database */}
+          <div>
+            <h5 className="stack-title-h5">Database</h5>
+            <div className="front-con subject-con">
+              <div className="tech-con">
+                <img src={sql} alt="" />
+                <p className="language-p">MySQL</p>
+              </div>
+              <div className="tech-con">
+                <img src={firebase} alt="" />
+                <p className="language-p">Firebase & Firestore</p>
               </div>
             </div>
           </div>

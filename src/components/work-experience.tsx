@@ -25,11 +25,11 @@ const WorkExperience = () => {
           designation={dev}
           date={"December 2018 - April 2019"}
         />
-        <ExpTemplate
+        {/* <ExpTemplate
           company={"CarByke"}
           designation={dev}
           date={"June 2018 - November 2018"}
-        />
+        /> */}
         <ExpTemplate
           company={"Enhabyto IT Solutions"}
           designation={dev}

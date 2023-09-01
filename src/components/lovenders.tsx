@@ -35,7 +35,7 @@ const Lovenders = () => {
 
         <p className="info-p">
           Lovenders is a dating Android Application build on JAVA. As of May
-          2020, it has more than 35,000 active users. <br />
+          2022, it has more than 35,000 active users. <br />
           <br />
           • Developed Whole Android client part. <br />
           • Implement Right Left Swipe Actions with cards. <br />• Integrated
