@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const phoneNumber = "+1(604)-773-0344";
+  const telLink = `tel:${phoneNumber}`;
+
+  const showPhoneNumber = () => {
+    setIsVisible(true);
+  };
+
   return (
     <footer className="footer-con" id="hire-me">
       <div className="title-con">
@@ -30,15 +39,17 @@ const Footer = () => {
             </a>
           </li>
           {/* phone */}
-          <li className="link-phone-li">
-            <a href="tel:6047730344" target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-phone-square"></i>
-            </a>
-            &nbsp;
-            <a href="tel:6047730344" target="_blank" rel="noopener noreferrer">
-              +1(604)-773-0344
-            </a>
-          </li>
+      <li className="link-phone-li" onClick={showPhoneNumber}>
+        <a href={telLink}>
+          <i className="fas fa-phone-square"></i>
+        </a>
+        &nbsp;
+        {isVisible ? (
+          <a href={telLink}>{phoneNumber}</a>
+        ) : (
+          "+1(604)-773-xxxx"
+        )}
+      </li>
           {/* linkdein */}
           <li className="link-linkedin-li">
             <a

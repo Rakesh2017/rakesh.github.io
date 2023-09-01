@@ -1,18 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import servers from "../images/servers.svg";
 import smartphone from "../images/smartphone.svg";
 import web from "../images/web.svg";
 
 const Welcome = () => {
+
   return (
     <div className="welcome-con">
       {/* about me */}
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-        🌱 Hi, I'm Rakesh, a developer with four years of experience in Mobile Application Development and one year in Web Development. Proficient in Java, Kotlin, HTML, CSS, JavaScript, and Node.js. Skilled in agile methodologies and delivering efficient, scalable code. Passionate about creating intuitive user experiences and driving innovation.
-        <br/>Working on various projects has honed my abilities in delivering efficient, maintainable, and scalable code. I am well-versed in implementing optimal coding practices and staying up-to-date with the latest industry trends. Collaborating within diverse teams, I have acquired valuable experience in using agile methodologies and ensuring seamless communication throughout the software development lifecycle.
-          Checkout some of my work and feel free to contact me via <a
+        🌱 Hi, I'm Rakesh, welcome to my portfolio. Experienced Android developer with four years in crafting dynamic and user-centered mobile apps. Passionate about delivering efficient, elegant, and robust code. Collaborative team player skilled in the entire app development lifecycle. Excited to showcase a portfolio reflecting creativity, technical prowess, and a commitment to staying updated with industry trends.
+          <br></br>
+          Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
               href="mailto:rakesh22717@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -28,18 +29,6 @@ const Welcome = () => {
             >linkedin
           </a> if you had like to work together.
         </p>
-        {/* <hr className="divider" /> */}
-        {/* <p className="info-p avaliablity-p"> */}
-          {/* {" "}
-          I am open for full time job positions of{" "}
-          <span className="keywords">
-            Mobile Application developer
-          </span> and{" "}
-          <span className="keywords">Web Application Developer</span>.
-          <span className="keywords">Backend Developer</span>. */}
-
-        {/* I am currently employed as <span className="keywords">Android Developer</span> in well reputed organization based in Vancouver Downtown. However, I will be open for full time inter-mediate Android Application Developer position by April 2022. */}
-        {/* </p> */}
       </div>
       {/* about me  [ENDS]*/}
 
@@ -55,13 +44,13 @@ const Welcome = () => {
             <div className="image-con">
               <img src={smartphone} alt="icon 2" />
             </div>
-            <h5 className="title-h5">Mobile Applications</h5>
+            <h5 className="title-h5">Mobile Applications<br></br><span style={{ color: 'gray' }}>(Android Native & React Native)</span></h5>
             <p className="info-p">
-              Have industry experience of three years in developing
-              native android applications. Excellent understanding of 
-              android MVVM and MVP architecture with Kotlin and Java. Have one year of experience in
-              Kotlin and two years in Java.
-              Worked on multliple projects built on kotlin, corutinesx, livedata, flows, retrofit, hilt, and room.
+            Possessing a robust four-year track record in the development of native Android applications and one year in React Native within the industry. 
+            Demonstrating a profound mastery of Android MVVM and MVP architectures, leveraging both Kotlin and Java languages. 
+            <br></br>
+            <br></br>
+            Committedly engaged in a variety of <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>projects</a> that harnessed latest tech-stack including Jetpack Compose, Kotlin Coroutines, RxKotlin, LiveData, Flows, Retrofit, Hilt, and Room.
             </p>
           </div>
           {/* 2 */}
@@ -69,11 +58,10 @@ const Welcome = () => {
             <div className="image-con">
               <img src={web} alt="icon 1" />
             </div>
-            <h5 className="title-h5">Web Applications</h5>
+            <h5 className="title-h5">Web Applications<br></br><span style={{ color: 'gray' }}>(ReactJS)</span></h5>
             <p className="info-p">
-              Experience of more than one year in developing Web Applications.
-              Worked intensively on React library. During the past year, worked
-              on two live projects majorly developed on React, and Node.js.
+            Accumulating over a year of dedicated experience in crafting dynamic Web Applications. Displaying a strong focus on the React library, having engaged in intensive utilization. 
+            Over the recent year, actively contributed to the success of two live projects, prominently centered around React and complemented by Node.js backend development.
             </p>
           </div>
 
@@ -85,17 +73,3 @@ const Welcome = () => {
 };
 
 export default Welcome;
-
-
-          // {/* 3 */}
-          // <div className="expertise-three-con info-con">
-          //   <div className="image-con">
-          //     <img src={servers} alt="icon 3" />
-          //   </div>
-          //   <h5 className="title-h5">Backend Development</h5>
-          //   <p className="info-p">
-          //     Experience of one year in backend development. Expertise is in
-          //     Express - Node.js (MVC) with MySQL to create REST APIs.
-          //     Entry-level knowledge of Graphql Apollo Server as well.
-          //   </p>
-          // </div>

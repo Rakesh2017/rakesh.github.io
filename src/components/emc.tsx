@@ -41,7 +41,6 @@ const EMC = () => {
           • Mainly worked on MVP and MVVM architecture built on Kotlin. <br />
           • Implemented best practices to reduce redundancy and increase efficiency. <br />
           • Connect the APIs using Retrofit and android life-cycle aware components.{" "}<br />
-          • Used the latest methodologies suggested by android development architecture documentation.<br />        
         </p>
         <nav className="tags-nav">
           <ul>
