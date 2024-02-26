@@ -11,7 +11,7 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-        🌱 Hi, I'm Rakesh, welcome to my portfolio. Experienced Android developer with four years in crafting dynamic and user-centered mobile apps. Passionate about delivering efficient, elegant, and robust code. Collaborative team player skilled in the entire app development lifecycle. Excited to showcase a portfolio reflecting creativity, technical prowess, and a commitment to staying updated with industry trends.
+        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five years of expertise as an Native Android developer and React Native enthusiast, I specialize in crafting dynamic, user-centric mobile applications. My dedication lies in delivering not just code, but efficiency, elegance, and robustness. As a collaborative team player, I thrive in every stage of the app development lifecycle. I'm enthusiastic about presenting a portfolio that mirrors creativity, technical excellence, and a steadfast commitment to staying abreast of industry trends.
           <br></br>
           Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
               href="mailto:rakesh22717@gmail.com"
@@ -46,8 +46,8 @@ const Welcome = () => {
             </div>
             <h5 className="title-h5">Mobile Applications<br></br><span style={{ color: 'gray' }}>(Android Native & React Native)</span></h5>
             <p className="info-p">
-            Possessing a robust four-year track record in the development of native Android applications and one year in React Native within the industry. 
-            Demonstrating a profound mastery of Android MVVM and MVP architectures, leveraging both Kotlin and Java languages. 
+            With a solid five year experience in native Android application development and React Native development, I bring a wealth of experience to the table. 
+            Demonstrating a profound mastery of Android MVVM, MVC and MVP architectures, leveraging both Kotlin and Java. In React Native, proficient in component-based architecture, Redux for state management, and integrating third-party libraries for enhanced functionality. 
             <br></br>
             <br></br>
             Committedly engaged in a variety of <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>projects</a> that harnessed latest tech-stack including Jetpack Compose, Kotlin Coroutines, RxKotlin, LiveData, Flows, Retrofit, Hilt, and Room.

@@ -14,11 +14,11 @@ const EMC = () => {
         </div>
         <a
           className="website-link-a link-android"
-          href="https://www.yibeivip.com"
+          href="https://www.emc89.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp;https://www.yibeivip.com
+          &nbsp;https://www.emc89.com/
         </a>
         <div className="coming-soon-div">
         <button className="demo-btn">
@@ -34,13 +34,13 @@ const EMC = () => {
         </button>
         </div>
         <p className="info-p">
-          EMC is a live sports betting and streaming App. It has betting and streaming available for hundreds of leagues played in various games around the globe. <br /> 
+          
+          EMC stands out as a live sports betting and streaming platform, offering a diverse range of betting options and live streams for hundreds of leagues across various sports worldwide. <br /> 
            <br />
-          • Collaborated with a team of fifteen members composed of android developers, back-end developers, UI/UX developers, and product manager. Team worked on agile software development process	 with routine and weekly sprints. Every development was documented properly at end of the day. <br />
-          • App extensively requires complex data handling and manipulation with absolute handling of financial calculations. To manage this, I have learned and implemented optimal data structures which can handle large sets of data and calculations.<br />
-          • Mainly worked on MVP and MVVM architecture built on Kotlin. <br />
-          • Implemented best practices to reduce redundancy and increase efficiency. <br />
-          • Connect the APIs using Retrofit and android life-cycle aware components.{" "}<br />
+          • Collaborated closely with a multidisciplinary team of fifteen members, including Android and backend developers, UI/UX designers, and a product manager, adhering to an agile software development methodology with regular sprints and meticulous daily documentation. <br />
+          • Managed complex data processing and intricate financial calculations within the app, leveraging advanced data structures to efficiently handle large datasets and computations.<br />
+          • Specialized in implementing MVP and MVVM architecture using Kotlin, focusing on optimizing performance and reducing redundancy through industry best practices. <br />
+          • Integrated APIs seamlessly using Retrofit and Android lifecycle-aware components to ensure robust connectivity and responsiveness. <br />
         </p>
         <nav className="tags-nav">
           <ul>

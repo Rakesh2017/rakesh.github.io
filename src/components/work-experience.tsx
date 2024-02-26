@@ -4,6 +4,7 @@ import ExpTemplate from "./exp-template";
 const WorkExperience = () => {
   const inter_dev = "Intermediate Android Developer";
   const dev = "Android Developer";
+  const freelancer = "Freelancer Android Developer";
   return (
     <div className="work-exp-con">
       <div>
@@ -25,11 +26,11 @@ const WorkExperience = () => {
           designation={dev}
           date={"December 2018 - April 2019"}
         />
-        {/* <ExpTemplate
+        <ExpTemplate
           company={"CarByke"}
-          designation={dev}
+          designation={freelancer}
           date={"June 2018 - November 2018"}
-        /> */}
+        />
         <ExpTemplate
           company={"Enhabyto IT Solutions"}
           designation={dev}
