@@ -45,6 +45,7 @@ const HappyFridge = () => {
         <nav className="tags-nav">
           <ul>
             <li>react native</li>
+            <li>Redux</li>
             <li>apollo graphql</li>
             <li>JSX</li>
           </ul>

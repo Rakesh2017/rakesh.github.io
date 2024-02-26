@@ -14,11 +14,11 @@ const Lovenders = () => {
         </div>
         <a
           className="website-link-a link-android"
-          href="https://apkpure.com/lovenders/com.united.lovender"
+          href="https://apkcombo.com/lovenders/com.united.lovender/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp;https://apkpure.com/lovenders/com.united.lovender
+          &nbsp;https://apkcombo.com/lovenders/com.united.lovender/
         </a>
         <br />
         <button className="demo-btn">

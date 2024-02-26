@@ -45,14 +45,16 @@ const Tablo = () => {
         <nav className="tags-nav">
           <ul>
             <li>Kotlin</li>
-            <li>Ketpack Compose</li>
+            <li>Jetpack Compose Functions</li>
             <li>MVVM-usecase</li>
             <li>Retrofit/ Moshi</li>
             <li>RxKotlin</li>
+            <li>Reactive Programming</li>
             <li>Coroutines</li>
             <li>Wifi Protocols</li>
             <li>Leanback</li>
             <li>Live TV Grid</li>
+            <li>Server controlled UI</li>
           </ul>
         </nav>
       </div>

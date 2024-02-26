@@ -21,9 +21,9 @@ const FeaturedWork = () => {
       <hr className="divider-hr" />
       <Offbeat />
       <hr className="divider-hr" />
-      <CarbonPrint />
-      <hr className="divider-hr" />
       <HappyFridge />
+      <hr className="divider-hr" />
+      <CarbonPrint />
       <hr className="divider-hr" />
       <Realisting />
     </div>

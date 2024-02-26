@@ -47,6 +47,7 @@ const Offbeat = () => {
           <ul>
             <li>React Native</li>
             <li>React Native CLI</li>
+            <li>Redux</li>
             <li>NodeJS</li>
             <li>MySQL</li>
             <li>OAuth 2.0</li>
