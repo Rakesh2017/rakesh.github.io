@@ -597,6 +597,42 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
+  #line1 {
+    margin: 76px $container-side-mobile-padding 0;
+    width: 70%;
+  }
+  @media only screen and (min-width: $minimum-width) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: hidden;
+    }
+  }
+  @media only screen and (min-width: $media-query-tablet) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: visible;
+    }
+    #line2 {
+      margin: 228px $container-side-mobile-padding 0;
+      width: 70%;
+    }
+  }
+  @media only screen and (min-width: $media-query-desktop) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: visible;
+    }
+    #line2 {
+      margin: 228px $container-side-mobile-padding 0;
+      width: 30%;
+    }
+  }
 }
 
 .demo-btn {
