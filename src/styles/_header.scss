@@ -10,12 +10,13 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 5px gray;
-
+  max-width: 100%;
+  
   .header-background-img {
     overflow: hidden;
     object-fit: cover;
-    width: 100%;
-  }
+    width: 150%;
+      }
 
   .header-content-child-con {
     position: absolute;

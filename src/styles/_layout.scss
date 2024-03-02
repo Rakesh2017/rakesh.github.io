@@ -609,7 +609,7 @@
       visibility: hidden;
     }
   }
-  @media only screen and (min-width: $media-query-tablet) {
+  @media only screen and (min-width: 870px) {
     .horizontal-line {
       border-top: 5px solid $color-grey-accent;
       left: 10%;
@@ -711,4 +711,14 @@
   font-style: normal;
   color: $color-green;
   font-size: 0.925rem;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%; 
+  background-color: #3b8060;
+  z-index: 9999; 
 }

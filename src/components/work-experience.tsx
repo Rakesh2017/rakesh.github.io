@@ -11,8 +11,8 @@ const WorkExperience = () => {
         <h4 className="work-exp-h4">Work Experience</h4>
       </div>
       <div style={{ position:"relative" }}>
-        <div id="line1" className="horizontal-line" />
-        <div id="line2" className="horizontal-line" />
+        {/* <div id="line1" className="horizontal-line" /> */}
+        {/* <div id="line2" className="horizontal-line" /> */}
         <div className='exp-content-con'>
           <ExpTemplate
             company={"Iversoft Solutions"}
@@ -23,6 +23,11 @@ const WorkExperience = () => {
             company={"Skythinking Technology Co. Ltd."}
             designation={dev}
             date={"May 2021 - April 2022"}
+          />
+          <ExpTemplate
+            company={"PG in Mobile and Web Advance Design and  Development"}
+            designation={""}
+            date={"Aug 2019 - Jan 2021"}
           />
           <ExpTemplate
             company={"IntelligentOutsourcing"}
