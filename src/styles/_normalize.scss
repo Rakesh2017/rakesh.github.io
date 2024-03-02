@@ -33,7 +33,11 @@ body {
   line-height: $font__line-height-body;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
-}
+  }
+
+  ::-webkit-scrollbar { /* Target Webkit scrollbar (Chrome, Safari) */
+    display: none; /* Hide the scrollbar track */
+  }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and

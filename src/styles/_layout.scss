@@ -597,6 +597,42 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
+  #line1 {
+    margin: 76px $container-side-mobile-padding 0;
+    width: 70%;
+  }
+  @media only screen and (min-width: $minimum-width) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: hidden;
+    }
+  }
+  @media only screen and (min-width: 870px) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: visible;
+    }
+    #line2 {
+      margin: 228px $container-side-mobile-padding 0;
+      width: 70%;
+    }
+  }
+  @media only screen and (min-width: $media-query-desktop) {
+    .horizontal-line {
+      border-top: 5px solid $color-grey-accent;
+      left: 10%;
+      position: absolute;
+      visibility: visible;
+    }
+    #line2 {
+      margin: 228px $container-side-mobile-padding 0;
+      width: 30%;
+    }
+  }
 }
 
 .demo-btn {
@@ -675,4 +711,14 @@
   font-style: normal;
   color: $color-green;
   font-size: 0.925rem;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%; 
+  background-color: #3b8060;
+  z-index: 9999; 
 }

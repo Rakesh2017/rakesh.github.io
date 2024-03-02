@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import image from "../images/portfolio-background.jpg";
 
-const Header = () => {
+interface ChildProps {
+  scaleValue: number;
+}
+
+const Header: React.FC<ChildProps> = ({scaleValue}) => {
+
   return (
     <header id='#header-me' className="header-con">
       {/* header main container */}
@@ -10,6 +15,7 @@ const Header = () => {
         className="header-background-img"
         src={image}
         alt="background"
+       style={{ transform: 'scaleY(' + scaleValue + ')'}}
       />
       <div className="header-content-child-con">
         <div>
