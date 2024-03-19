@@ -17,7 +17,7 @@ const WorkExperience = () => {
           <ExpTemplate
             company={"Iversoft Solutions"}
             designation={inter_dev}
-            date={"May 2022 - Feb 2024"}
+            date={"May 2022 - Mar 2024"}
           />
           <ExpTemplate
             company={"Skythinking Technology Co. Ltd."}

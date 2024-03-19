@@ -14,7 +14,7 @@ const Tablo = () => {
         </div>
         <a
           className="website-link-a link-android"
-          href="https://play.google.com/store/search?q=tablo&c=apps"
+          href="https://play.google.com/store/apps/details?id=com.nuvyyo.TabloCordova"
           target="_blank"
           rel="noopener noreferrer"
         >
