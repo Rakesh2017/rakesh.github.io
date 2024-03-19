@@ -25,11 +25,24 @@
       text-transform: capitalize;
       margin-bottom: 0;
       font-size: 1.3rem;
+      text-align: center;
+      line-height: normal;
       @media only screen and (min-width: $media-query-tablet) {
         font-size: 2rem;
       }
-      span {
-        font-weight: 400;
+    }
+
+    .designation-p {
+      text-transform: capitalize;
+      margin-bottom: 0;
+      text-align: center;
+      line-height: normal;
+      font-weight: 400;
+      font-size: 0.7rem;
+      display: flex;
+      justify-content: center;
+      @media only screen and (min-width: $media-query-tablet) {
+        font-size: 0.9rem;
       }
     }
 
@@ -61,6 +74,7 @@
     .social-links-nav {
       display: flex;
       justify-content: center;
+      margin-top: -20px;
       ul {
         display: flex;
         flex-direction: row;
