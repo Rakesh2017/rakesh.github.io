@@ -2,6 +2,7 @@ import React from "react";
 import ExpTemplate from "./exp-template";
 
 const WorkExperience = () => {
+  const senior_dev = "Senior Mobile Application Developer";
   const inter_dev = "Intermediate Mobile Developer";
   const dev = "Android Developer";
   const freelancer = "Freelancer Android Developer";
@@ -16,7 +17,7 @@ const WorkExperience = () => {
         <div className='exp-content-con'>
           <ExpTemplate
             company={"Iversoft Solutions"}
-            designation={inter_dev}
+            designation={senior_dev}
             date={"May 2022 - Mar 2024"}
           />
           <ExpTemplate
