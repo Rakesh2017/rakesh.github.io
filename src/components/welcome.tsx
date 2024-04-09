@@ -11,9 +11,10 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five years of expertise as an Native Android developer and React Native, I specialize in crafting dynamic, user-centric mobile applications. My dedication lies in delivering not just code, but efficiency, elegance, and robustness. As a collaborative team player, I thrive in every stage of the app development lifecycle. I'm enthusiastic about presenting a portfolio that mirrors creativity, technical excellence, and a steadfast commitment to staying abreast of industry trends.
-          <br></br>
-          Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
+        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five years of expertise as an Native Android developer and React Native, I specialize in crafting dynamic, user-centric mobile applications.
+        
+           Beyond coding, I find joy in exploring the great outdoors through hiking adventures and relishing the companionship of soccer matches on the field.
+          {/* Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
               href="mailto:rakesh22717@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,7 +28,7 @@ const Welcome = () => {
               className="link-email"
               title="linkedin.com/in/rakesh07/"
             >linkedin
-          </a> if you had like to work together.
+          </a> if you had like to work together. */}
         </p>
       </div>
       {/* about me  [ENDS]*/}

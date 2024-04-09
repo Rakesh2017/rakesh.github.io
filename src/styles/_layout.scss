@@ -184,6 +184,16 @@
               content: "\f0c7";
             }
           }
+          .view-cv-btn {
+            background-color: white;
+            color: $color-green;
+            margin-top: 0.5rem;
+            &::before {
+              font-family: "Font Awesome 5 Free";
+              font-weight: 700;
+              content: "\f0c7";
+            }
+          }
           .hire-me-btn {
             background-color: rgba(0, 0, 0, 0.3);
             &::before {
