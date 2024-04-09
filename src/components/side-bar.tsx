@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../images/profile-pic.png";
+import profileImage from "../images/profile-pic.jpg";
 
 const SideBar = () => {
   // toggle side bar
@@ -18,6 +18,7 @@ const SideBar = () => {
   }
 
   const resume_download_url = 'https://drive.google.com/file/d/1PgzH8JkL3mU-LsF5N8ypZSeZUM7DC3H2/view?usp=sharing'; 
+  const cv_url = "https://read.cv/rakesh7"
   
   return (
     <div className="side-bar-con minimized">
@@ -63,6 +64,17 @@ const SideBar = () => {
               download="resume"
             >
               Download Resume
+            </a>
+          </button>
+          <button className="view-cv-btn">
+            &nbsp;
+            <a
+              className="download-a"
+              target='_blank'
+              href={cv_url}
+              download="resume"
+            >
+              View CV
             </a>
           </button>
           <button className="hire-me-btn">
