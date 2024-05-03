@@ -3,7 +3,7 @@ import ExpTemplate from "./exp-template";
 
 const WorkExperience = () => {
   const senior_dev = "Senior Mobile Application Developer";
-  const inter_dev = "Intermediate Mobile Developer";
+  const inter_dev = "Intermediate Android Developer";
   const dev = "Android Developer";
   const freelancer = "Freelancer Android Developer";
   return (
@@ -22,8 +22,8 @@ const WorkExperience = () => {
           />
           <ExpTemplate
             company={"Skythinking Technology Co. Ltd."}
-            designation={dev}
-            date={"May 2021 - April 2022"}
+            designation={inter_dev}
+            date={"Mar 2021 - April 2022"}
           />
           <ExpTemplate
             company={"PG in Mobile and Web Advance Design and  Development"}
@@ -37,7 +37,7 @@ const WorkExperience = () => {
           />
           <ExpTemplate
             company={"CarByke"}
-            designation={freelancer}
+            designation={dev}
             date={"June 2018 - November 2018"}
           />
           <ExpTemplate
