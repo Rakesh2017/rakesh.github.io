@@ -11,7 +11,7 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five years of expertise as an Native Android developer and React Native, I specialize in crafting dynamic, user-centric mobile applications.
+        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five plus years of expertise as an Native Android developer and React Native, I specialize in crafting dynamic, user-centric mobile applications.
         
            Beyond coding, I find joy in exploring the great outdoors through hiking adventures and relishing the companionship of soccer matches on the field.
           {/* Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
