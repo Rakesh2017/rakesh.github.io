@@ -17,7 +17,7 @@ const SideBar = () => {
     document.querySelector(".super-parent-con-active")?.classList.toggle("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/1PgzH8JkL3mU-LsF5N8ypZSeZUM7DC3H2/view?usp=sharing'; 
+  const resume_download_url = 'https://drive.google.com/file/d/1be5g4NvwbkOC0gZM6185zCJKxdhKwH28/view?usp=sharing'; 
   const cv_url = "https://read.cv/rakesh7"
   
   return (
