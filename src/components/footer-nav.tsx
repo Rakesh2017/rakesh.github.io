@@ -30,13 +30,13 @@ const FooterNav = () => {
             <a href="">Home</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#work-experience">Experience</a>
           </li>
           <li>
-            <a href="#fullstack">Full Stack</a>
+            <a href="#fullstack">Tech-Stack</a>
           </li>
           <li>
-            <a href="#work">Featured-Work</a>
+            <a href="#work">Featured Work</a>
           </li>
           <li>
             <a href="#hire-me">Hire Me</a>
