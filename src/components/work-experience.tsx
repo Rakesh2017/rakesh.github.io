@@ -7,7 +7,7 @@ const WorkExperience = () => {
   const dev = "Android Developer";
   const freelancer = "Freelancer Android Developer";
   return (
-    <div className="work-exp-con">
+    <div className="work-exp-con" id="work-experience">
       <div>
         <h4 className="work-exp-h4">Work Experience</h4>
       </div>
@@ -26,24 +26,24 @@ const WorkExperience = () => {
             date={"Mar 2021 - April 2022"}
           />
           <ExpTemplate
-            company={"PG in Mobile and Web Advance Design and  Development"}
+            company={"Professional Development: PG in Mobile and Web Design and Development"}
             designation={""}
             date={"Aug 2019 - Jan 2021"}
           />
           <ExpTemplate
-            company={"IntelligentOutsourcing"}
+            company={"NRI Media"}
             designation={dev}
-            date={"December 2018 - April 2019"}
+            date={"December 2018 - June 2019"}
           />
-          <ExpTemplate
+          {/* <ExpTemplate
             company={"CarByke"}
             designation={dev}
             date={"June 2018 - November 2018"}
-          />
+          /> */}
           <ExpTemplate
             company={"Enhabyto IT Solutions"}
             designation={dev}
-            date={"August 2017 - May 2018"}
+            date={"August 2017 - November 2018"}
           />
         </div>
       </div>

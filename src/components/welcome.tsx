@@ -11,9 +11,9 @@ const Welcome = () => {
       <div className="about-me-con">
         <h4 className="title-h4">About Me</h4>
         <p className="info-p">
-        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. With five plus years of expertise as an Native Android developer and React Native, I specialize in crafting dynamic, user-centric mobile applications.
+        🌱 Hi, I'm Rakesh, and I invite you to explore my portfolio. Over 5 years of experience as a skilled Native Android and React Native developer, I build dynamic and user-friendly mobile applications that engage and delight users.
         
-           Beyond coding, I find joy in exploring the great outdoors through hiking adventures and relishing the companionship of soccer matches on the field.
+           {/* Beyond coding, I find joy in exploring the great outdoors through hiking adventures and relishing the companionship of soccer matches on the field. */}
           {/* Checkout some of my <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>work</a> and feel free to contact me via <a
               href="mailto:rakesh22717@gmail.com"
               target="_blank"
@@ -33,42 +33,6 @@ const Welcome = () => {
       </div>
       {/* about me  [ENDS]*/}
 
-      {/* experience */}
-      <div id="experience" className="expertise-con">
-        <div>
-          <h4 className="title-h4">Area of Experience</h4>
-        </div>
-
-        <div className="expertise-main-con">
-          {/* 1 */}
-          <div className="expertise-two-con info-con">
-            <div className="image-con">
-              <img src={smartphone} alt="icon 2" />
-            </div>
-            <h5 className="title-h5">Mobile Applications<br></br><span style={{ color: 'gray' }}>(Android Native & React Native)</span></h5>
-            <p className="info-p">
-            With a solid five year experience in native Android application development and React Native development, I bring a wealth of experience to the table. 
-            Demonstrating a profound mastery of Android MVVM, MVC and MVP architectures, leveraging both Kotlin and Java. In React Native, proficient in component-based architecture, Redux for state management, and integrating third-party libraries for enhanced functionality. 
-            <br></br>
-            <br></br>
-            Committedly engaged in a variety of <a href="#work" style={{ textDecoration: 'none', color:"#54b689" }}>projects</a> that harnessed latest tech-stack including Jetpack Compose, Kotlin Coroutines, RxKotlin, LiveData, Flows, Retrofit, Hilt, and Room.
-            </p>
-          </div>
-          {/* 2 */}
-          <div className="expertise-one-con info-con">
-            <div className="image-con">
-              <img src={web} alt="icon 1" />
-            </div>
-            <h5 className="title-h5">Web Applications<br></br><span style={{ color: 'gray' }}>(ReactJS)</span></h5>
-            <p className="info-p">
-            Accumulating over a year of dedicated experience in crafting dynamic Web Applications. Displaying a strong focus on the React library, having engaged in intensive utilization. 
-            Over the recent year, actively contributed to the success of two live projects, prominently centered around React and complemented by Node.js backend development.
-            </p>
-          </div>
-
-        </div>
-      </div>
-      {/* experience [ENDS] */}
     </div>
   );
 };

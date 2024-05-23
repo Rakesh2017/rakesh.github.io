@@ -10,6 +10,7 @@ import WorkExperience from "../src/components/work-experience";
 import FooterNav from "../src/components/footer-nav";
 import Header from "./components/header";
 import ScrollProgressBar from "./components/scrollProgressBar";
+import AreaOfExperience from "./components/areaExperience";
 
 function App() {
  
@@ -70,6 +71,9 @@ function App() {
             </section>
             <section>
               <FeaturedWork />
+            </section>
+            <section>
+              <AreaOfExperience />
             </section>
           </main>
           <Footer />
