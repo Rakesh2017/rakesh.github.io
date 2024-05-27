@@ -36,7 +36,7 @@ const AreaOfExperience = () => {
             </div>
             <h5 className="title-h5">Web Applications<br></br><span style={{ color: 'gray' }}>(ReactJS)</span></h5>
             <p className="info-p">
-            Over a year of experience has equipped me with the skills to build dynamic and user-friendly web applications using React.  I've developed a strong understanding of the React library through extensive use in real-world projects.  My passion for building intuitive interfaces and user experiences fuels my dedication to mastering React's capabilities.
+            Over a year of experience has equipped me with the skills to build dynamic and user-friendly web applications using React.  I've developed a strong understanding of the React library through extensive use in real-world project.  My passion for building intuitive interfaces and user experiences fuels my dedication to mastering React's capabilities.
 
             In the past year, I've actively contributed to the success of two live web applications built with React. These projects leveraged Node.js for robust backend development, ensuring seamless communication between the frontend and the server. 
             </p>
