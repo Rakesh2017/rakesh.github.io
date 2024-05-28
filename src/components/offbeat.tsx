@@ -36,11 +36,13 @@ const Offbeat = () => {
         <p className="info-p">
           With OFFbeat, you can turn your travel journeys into an amazing
           personal adventure journal and even share it with world. <br /> <br />
-          • Developed the backend with nodeJS. <br />
-          • Followed MVC pattern to develop REST APIs. <br />
-          • Implemented OAuth 2.0 for authentication. <br />
-          • For database, used MySql. <br />
-          • Database and backend hosted on AWS EC2.
+          <ul>
+            <li>Developed the backend with NodeJS.</li>
+            <li>Followed MVC pattern to develop REST APIs.</li>
+            <li>Implemented OAuth 2.0 for authentication.</li>
+            <li>Used MySQL for the database.</li>
+            <li>Database and backend hosted on AWS EC2.</li>
+          </ul>
           <br />
         </p>
         <nav className="tags-nav">

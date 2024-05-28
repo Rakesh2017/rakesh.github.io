@@ -36,10 +36,11 @@ const HappyFridge = () => {
           of user's leftovers. It has dashboard where users can keep track of
           their leftover usage histories. This project is developed under 2021 WEF Competition for Project Excellence. <br />
           <br />
-          • Used expo to build the application. <br />
-          • Developed frontend of an app using react JSX components and hooks.{" "}
-          <br />
-          • Implement the backend connections with apollo graphql client. <br />
+          <ul>
+            <li>Used Expo to build the application.</li>
+            <li>Developed frontend of an app using React JSX components and hooks.</li>
+            <li>Implemented the backend connections with Apollo GraphQL client.</li>
+          </ul>
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
         <nav className="tags-nav">

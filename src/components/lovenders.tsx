@@ -14,11 +14,11 @@ const Lovenders = () => {
         </div>
         <a
           className="website-link-a link-android"
-          href="https://apkcombo.com/lovenders/com.united.lovender/"
+          href="https://drive.google.com/file/d/1D97fUiCDvzPg4nBtTiecWg_C_o9WzXRU/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp;https://apkcombo.com/lovenders/com.united.lovender/
+          &nbsp;Download APK
         </a>
         <br />
         <button className="demo-btn">
@@ -37,12 +37,13 @@ const Lovenders = () => {
           Lovenders is a dating Android Application build on JAVA. As of May
           2022, it has more than 35,000 active users. <br />
           <br />
-          • Developed Whole Android client part. <br />
-          • Implement Right Left Swipe Actions with cards. <br />• Integrated
-          Google in app purchases supported for three currencies. <br />
-          • Built Chatting Feature on firebase. <br />• Used Google SDK to
-          integrate Google Login, Facebook endpoints to integrate Facebook
-          login, Firebase Auth for Phone login.
+          <ul>
+            <li>Developed Whole Android client part.</li>
+            <li>Implemented Right Left Swipe Actions with cards.</li>
+            <li>Integrated Google in-app purchases supported for three currencies.</li>
+            <li>Built Chatting Feature on Firebase.</li>
+            <li>Used Google SDK to integrate Google Login, Facebook endpoints to integrate Facebook login, Firebase Auth for Phone login.</li>
+          </ul>
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
         <nav className="tags-nav">
