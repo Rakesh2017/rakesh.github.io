@@ -12,9 +12,9 @@ const CarbonPrint = () => {
           <h4 className="title-h4">Carbon Print</h4>
           {/* <p className='date-p'>April 2020 - Jul 2020</p> */}
         </div>
-        <a
+        <a style={{color:'grey'}}
           className="website-link-a"
-          href="https://www.carbonprint.ca"
+          // href="https://www.carbonprint.ca"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -24,12 +24,13 @@ const CarbonPrint = () => {
           Carbon print is a web platform where an individual can calculate the
           amount of carbon footprint they produced in relation to their daily
           activities. <br /> <br />
-          • Orchestrated the team of eight members. <br />
-          • Developed the backend on nodeJS. <br />
-          • Implemented google Places APIs to autocomplete the field as user
-          types. <br />
-          • Built the database on MySQL. Database is hosted on plesk server.{" "}
-          <br />• Frontend structuring on react JSX.
+          <ul>
+            <li>Orchestrated the team of eight members.</li>
+            <li>Developed the backend on NodeJS.</li>
+            <li>Implemented Google Places APIs to autocomplete the field as the user types.</li>
+            <li>Built the database on MySQL, hosted on a Plesk server.</li>
+            <li>Structured the frontend using React JSX.</li>
+          </ul>
         </p>
         <nav className="tags-nav">
           <ul>

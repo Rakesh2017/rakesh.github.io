@@ -6,6 +6,7 @@ import Offbeat from "../components/offbeat";
 import HappyFridge from "../components/happy-fridge";
 import EMC from "./emc";
 import Tablo from "./tablo";
+import Miinga from "./miinga";
 
 const FeaturedWork = () => {
   return (
@@ -17,6 +18,8 @@ const FeaturedWork = () => {
       <hr className="divider-hr" />
       <EMC />
       <hr className="divider-hr" />
+      <Miinga />
+      <hr className="divider-hr" />
       <Lovenders />
       <hr className="divider-hr" />
       <Offbeat />
@@ -25,7 +28,7 @@ const FeaturedWork = () => {
       <hr className="divider-hr" />
       <CarbonPrint />
       <hr className="divider-hr" />
-      <Realisting />
+      {/* <Realisting /> */}
     </div>
   )
 }
