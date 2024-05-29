@@ -17,7 +17,7 @@ const SideBar = () => {
     document.querySelector(".super-parent-con-active")?.classList.toggle("super-parent-con-disable");
   }
 
-  const resume_download_url = 'https://drive.google.com/file/d/1be5g4NvwbkOC0gZM6185zCJKxdhKwH28/view?usp=sharing'; 
+  const resume_download_url = 'https://drive.google.com/file/d/17DLWu_6SOfF8NM4_So-Y2h9HWhORm12L/view?usp=sharing'; 
   const cv_url = "https://read.cv/rakesh7"
   
   return (
@@ -55,7 +55,10 @@ const SideBar = () => {
           >
             &nbsp;View Resume
           </button> */}
-          <button className="download-resume-btn">
+          <button 
+          className="download-resume-btn"
+          onClick={() => window.open(resume_download_url, '_blank')}
+          >
             &nbsp;
             <a
               className="download-a"
@@ -66,7 +69,10 @@ const SideBar = () => {
               Download Resume
             </a>
           </button>
-          <button className="view-cv-btn">
+          <button 
+          className="view-cv-btn"
+          onClick={() => window.open(cv_url, '_blank')}
+          >
             &nbsp;
             <a
               className="download-a"
@@ -77,7 +83,10 @@ const SideBar = () => {
               View CV
             </a>
           </button>
-          <button className="hire-me-btn">
+          <button 
+          className="hire-me-btn"
+          onClick={() => window.open("#hire-me", '_blank')}
+          >
             &nbsp;{" "}
             <a className="hire-a" href="#hire-me">
               Get In Touch
