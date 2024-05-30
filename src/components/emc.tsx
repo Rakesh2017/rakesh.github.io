@@ -38,10 +38,11 @@ const EMC = () => {
           EMC stands out as a live sports betting and streaming platform, offering a diverse range of betting options and live streams for hundreds of leagues across various sports worldwide. <br />
           <br />
           <ul>
-            <li>Collaborated closely with a multidisciplinary team of fifteen members, including Android and backend developers, UI/UX designers, and a product manager, adhering to an agile software development methodology with regular sprints and meticulous daily documentation.</li>
             <li>Managed complex data processing and intricate financial calculations within the app, leveraging advanced data structures to efficiently handle large datasets and computations.</li>
-            <li>Specialized in implementing MVP and MVVM architecture using Kotlin, focusing on optimizing performance and reducing redundancy through industry best practices.</li>
+            <li>Implemented a streamlined method for invoking the live API every few seconds, while adhering to Android activity and fragment lifecycle protocols. This approach prevents repetitive service starts, curbing the risks of memory leaks and abuse of APIs and resources.</li>
+            <li>Implemented combination of MVP and MVVM architecture using Kotlin, focusing on optimizing performance and reducing redundancy through industry best practices.</li>
             <li>Integrated APIs seamlessly using Retrofit and Android lifecycle-aware components to ensure robust connectivity and responsiveness.</li>
+            <li>Collaborated closely with a multidisciplinary team of fifteen members, including Android and backend developers, UI/UX designers, and a product manager, adhering to an agile software development methodology with regular sprints and meticulous daily documentation.</li>
           </ul>
         </p>
         <nav className="tags-nav">

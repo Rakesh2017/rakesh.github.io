@@ -55,6 +55,8 @@ const Miinga = () => {
             <li>Flows</li>
             <li>Coroutines</li>
             <li>Room</li>
+            <li>CRUD</li>
+            <li>Offline Capability</li>
           </ul>
         </nav>
       </div>

@@ -38,11 +38,11 @@ const Lovenders = () => {
           2022, it has more than 35,000 active users. <br />
           <br />
           <ul>
-            <li>Developed Whole Android client part.</li>
-            <li>Implemented Right Left Swipe Actions with cards.</li>
-            <li>Integrated Google in-app purchases supported for three currencies.</li>
-            <li>Built Chatting Feature on Firebase.</li>
-            <li>Used Google SDK to integrate Google Login, Facebook endpoints to integrate Facebook login, Firebase Auth for Phone login.</li>
+            <li>Developed intuitive right-left swipe actions for cards, enhancing user interaction and engagement.</li>
+            <li>Integrated Google in-app purchases to enable a subscription model, providing a seamless and monetizable user experience.</li>
+            <li>Designed and implemented a comprehensive chat feature based on Firebase, ensuring secure communication with full encryption.</li>
+            <li>Utilized the Google SDK to integrate Google login, Facebook endpoints for Facebook login, and Firebase Auth for phone login, ensuring a smooth and secure authentication process.</li>
+            <li>Implemented a robust caching model to pre-load cards in memory, ensuring the app remains responsive even when users swipe at high speeds, significantly reducing lag and enhancing user experience.</li>
           </ul>
           {/* <span className='note-span'>Note: For some reasons company decided to take down the App in late July 2020.</span> */}
         </p>
