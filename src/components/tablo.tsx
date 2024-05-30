@@ -37,11 +37,11 @@ const Tablo = () => {
           Tablo TV stands as a live streaming application that empowers users to seamlessly stream both OTA and OTT channels through their home WiFi network. <br />
           <br />
           <ul>
-            <li>Worked on a comprehensive UI overhaul utilizing Jetpack Compose UI, enhancing the visual experience.</li>
-            <li>Established a robust connection between Tablo (a physical device) and Android device, leveraging both WiFi protocols and Ethernet connectivity. This breakthrough enables users to seamlessly access OTA and OTT channels via their home WiFi network.</li>
-            <li>Streamlined and optimized the performance of the live TV grid, a task of high complexity given the potential combination of thousands of shows. Implemented an efficient algorithm to manage scrolling and click interactions effectively.</li>
-            <li>Collaborated harmoniously within an 11-member team, operating within a dynamic 2-week scrum framework.</li>
-            <li>Collaboratively engaged with the Team Lead to architect project scope, facilitate PIP planning, conduct sprint retrospectives, and orchestrate overarching project management strategies. This experience provided invaluable insights into project coordination and leadership dynamics.</li>
+            <li>Led a comprehensive UI overhaul using Jetpack Compose UI, significantly enhancing the visual experience and gaining proficiency in modern Android UI design techniques.</li>
+            <li>Streamlined and optimized the performance of the live TV grid, managing the complexity of thousands of shows. Implemented an efficient algorithm to handle scrolling and click interactions effectively, which honed my skills in performance optimization and algorithm design.</li>
+            <li>Collaborated effectively within an 11-member team, working within a dynamic 2-week scrum framework. This experience strengthen my teamwork and agile project management skills.</li>
+            <li>Worked closely with the Team Lead to architect project scope, facilitate PIP planning, conduct sprint retrospectives, and manage overall project strategies. This provided me with invaluable insights into project coordination and leadership dynamics, further developing my project management and leadership skills.</li>
+            <li>Established a robust connection between Tablo (a physical device) and Android devices using both WiFi protocols and Ethernet connectivity. This breakthrough allowed users to seamlessly access OTA and OTT channels via their home WiFi network, deepening my understanding of network protocols and device communication.</li>
           </ul>
         </p>
         <nav className="tags-nav">

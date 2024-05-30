@@ -37,11 +37,12 @@ const Offbeat = () => {
           With OFFbeat, you can turn your travel journeys into an amazing
           personal adventure journal and even share it with world. <br /> <br />
           <ul>
-            <li>Developed the backend with NodeJS.</li>
-            <li>Followed MVC pattern to develop REST APIs.</li>
-            <li>Implemented OAuth 2.0 for authentication.</li>
-            <li>Used MySQL for the database.</li>
-            <li>Database and backend hosted on AWS EC2.</li>
+            <li>Implemented OAuth 2.0 for secure authentication, ensuring that user credentials are protected and allowing for safe access to the application.</li>
+            <li>Integrated Google Maps SDK to provide comprehensive location and map support, enabling users to select precise location metadata for clicked pictures, enhancing the contextual accuracy of the application.</li>
+            <li>Utilized MySQL for the local database, efficiently managing extensive CRUD (Create, Read, Update, Delete) operations and ensuring data integrity and reliability.</li>
+            <li>Hosted the database and backend on AWS EC2, leveraging Amazon's robust infrastructure to ensure high availability, scalability, and performance of the application.</li>
+            <li>Played a key role in developing the backend using Node.js, focusing on creating a responsive and efficient server-side environment that handles client requests seamlessly.</li>
+            <li>Followed the MVC (Model-View-Controller) pattern to structure and develop REST APIs, promoting organized code, ease of maintenance, and separation of concerns in the application's architecture.</li>
           </ul>
           <br />
         </p>
@@ -50,9 +51,17 @@ const Offbeat = () => {
             <li>React Native</li>
             <li>React Native CLI</li>
             <li>Redux</li>
+            <li>Hooks</li>
             <li>NodeJS</li>
             <li>MySQL</li>
             <li>OAuth 2.0</li>
+            <li>TypeScript</li>
+            <li>EXList</li>
+            <li>Jest</li>
+            <li>RTK Query</li>
+            <li>Styled-Components</li>
+            <li>Next.js</li>
+            <li>Cypress</li>
           </ul>
         </nav>
       </div>
