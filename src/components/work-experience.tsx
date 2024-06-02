@@ -23,7 +23,7 @@ const WorkExperience = () => {
           <ExpTemplate
             company={"Skythinking Technology Co. Ltd."}
             designation={inter_dev}
-            date={"Mar 2021 - April 2022"}
+            date={"Mar 2021 - Apr 2022"}
           />
           <ExpTemplate
             company={"Professional Development: PG in Mobile and Web Design and Development"}
@@ -33,7 +33,7 @@ const WorkExperience = () => {
           <ExpTemplate
             company={"NRI Media"}
             designation={dev}
-            date={"December 2018 - June 2019"}
+            date={"Dec 2018 - Jun 2019"}
           />
           {/* <ExpTemplate
             company={"CarByke"}
@@ -43,7 +43,7 @@ const WorkExperience = () => {
           <ExpTemplate
             company={"Enhabyto IT Solutions"}
             designation={dev}
-            date={"August 2017 - November 2018"}
+            date={"Aug 2017 - Nov 2018"}
           />
         </div>
       </div>
