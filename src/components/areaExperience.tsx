@@ -21,7 +21,7 @@ const AreaOfExperience = () => {
             </div>
             <h5 className="title-h5">Mobile Applications<br></br><span style={{ color: 'gray' }}>(Android Native & React Native)</span></h5>
             <p className="info-p" style={{fontSize:'0.9rem'}}>
-            Over 5 years of experience building high-performing mobile apps using Native Android and React Native. I possess a strong understanding of Android architecture patterns (MVVM-UseCases, MVC, MVP) and leverage both Kotlin and Java for development. 
+            Over 5+ years of experience building high-performing mobile apps using Native Android and React Native. I possess a strong understanding of Android architecture patterns (MVVM-UseCases, MVC, MVP) and leverage both Kotlin and Java for development. 
             In React Native, I'm proficient in component-based architecture, Redux-Saga for state management, and integrating third-party libraries to enhance functionality.
             <br></br>
             <br></br>

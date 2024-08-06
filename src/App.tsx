@@ -11,11 +11,29 @@ import FooterNav from "../src/components/footer-nav";
 import Header from "./components/header";
 import ScrollProgressBar from "./components/scrollProgressBar";
 import AreaOfExperience from "./components/areaExperience";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 function App() {
  
   const [scale, setScale] = useState(1);
   const [scroll, setScroll] = useState(0);
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyA1sH3kxCaDIvqQWLRdHB68rRsmElqIjzI",
+    authDomain: "portfolio-dcc19.firebaseapp.com",
+    databaseURL: "https://portfolio-dcc19.firebaseio.com",
+    projectId: "portfolio-dcc19",
+    storageBucket: "portfolio-dcc19.appspot.com",
+    messagingSenderId: "757199503243",
+    appId: "1:757199503243:web:9940527c8dcbb7adb1798e",
+    measurementId: "G-GVK28SJHLX"
+  };
+
+  useEffect(()=> {
+    const app = initializeApp(firebaseConfig);
+    getAnalytics(app);
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
