@@ -35,7 +35,7 @@ const EMC = () => {
         </div>
         <p className="info-p">
 
-          EMC stands out as a live sports betting and streaming platform, offering a diverse range of betting options and live streams for hundreds of leagues across various sports worldwide. <br />
+          EMC stands out as a live sports stake and streaming platform, offering a diverse range of stake options and live streams for hundreds of leagues across various sports worldwide. <br />
           <br />
           <ul>
             <li>Managed complex data processing and intricate financial calculations within the app, leveraging advanced data structures to efficiently handle large datasets and computations.</li>
