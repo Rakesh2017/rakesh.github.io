@@ -5,7 +5,7 @@ const Tablo = () => {
   return (
     <div className="emc-con featured-work-subject-con">
       <div className="image-con">
-        <img src={image} alt="app-screenshot" />
+        <img style={{borderRadius: 35, width: "90%"}} src={image} alt="app-screenshot" />
       </div>
       <div className="info-con">
         <div className='title-con'>
