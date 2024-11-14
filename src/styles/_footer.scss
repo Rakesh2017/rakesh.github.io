@@ -1,7 +1,7 @@
 .footer-con {
   background-color: $color-grey-accent;
   background: url("../images/footer_backgrond.png");
-  margin-top: $container-top-padding;
+  margin-top: 7rem;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 0.5rem 3rem;
@@ -54,6 +54,7 @@
   display: block;
   transition: all 0.3s;
   position: fixed;
+  margin-top: 100px;
   left: 0;
   right: 0;
   bottom: 0;
