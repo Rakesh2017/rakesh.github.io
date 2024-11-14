@@ -48,7 +48,7 @@ const Footer = () => {
             {isVisible ? (
               <a href={telLink}>{phoneNumber}</a>
             ) : (
-              "+1(604)-773-xxxx"
+              <span style={{color:"white"}}>+1(604)-773-xxxx</span>
             )}
           </li>
           {/* LinkedIn */}
