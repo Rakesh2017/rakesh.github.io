@@ -528,13 +528,13 @@
       //grid-template-columns: 1fr 1fr 1fr;
       .first-block {
         display: grid;
-        grid-template-columns: 2fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
         grid-gap: 3rem;
       }
       .second-block {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 3rem;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 5rem;
       }
     }
     .stack-title-h5 {

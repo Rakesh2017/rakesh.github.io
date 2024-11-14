@@ -18,6 +18,9 @@ import bitbucket from "../images/logos/bitbucket.svg";
 import confluence from "../images/logos/confluence.svg";
 import appcentre from "../images/logos/appcentre.png";
 import bitrise from "../images/logos/bitrise.png";
+import azure from "../images/logos/azure.jpeg";
+import fastlane from "../images/logos/fastlane.png";
+import circleci from "../images/logos/circleci.svg";
 
 const FullStack = () => {
   return (
@@ -94,15 +97,15 @@ const FullStack = () => {
 
           {/* Project Communication */}
           <div>
-            <h5 className="stack-title-h5">Project Management & CI/CD</h5>
+            <h5 className="stack-title-h5">CI/CD & Project Management</h5>
             <div className="back-con subject-con">
               <div className="tech-con">
-                <img src={slack} alt="salack" />
-                <p className="language-p">Slack</p>
+                <img src={azure} alt="Azure Devops" />
+                <p className="language-p">Azure Devops</p>
               </div>
               <div className="tech-con">
-                <img src={confluence} alt="Confluence" />
-                <p className="language-p">Confluence</p>
+                <img src={fastlane} alt="Fastlane" />
+                <p className="language-p">Fastlane</p>
               </div>
               <div className="tech-con">
                 <img src={appcentre} alt="App Centre" />
@@ -113,8 +116,20 @@ const FullStack = () => {
                 <p className="language-p">Bitrise</p>
               </div>
               <div className="tech-con">
+                <img src={circleci} alt="Circle CI" />
+                <p className="language-p">Circle CI</p>
+              </div>
+              <div className="tech-con">
                 <img src={jira} alt="jira" />
                 <p className="language-p">Jira</p>
+              </div>
+              <div className="tech-con">
+                <img src={slack} alt="salack" />
+                <p className="language-p">Slack</p>
+              </div>
+              <div className="tech-con">
+                <img src={confluence} alt="Confluence" />
+                <p className="language-p">Confluence</p>
               </div>
               <div className="tech-con">
                 <img src={trello} alt="trello" />
