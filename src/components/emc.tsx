@@ -14,11 +14,11 @@ const EMC = () => {
         </div>
         <a
           className="website-link-a link-android"
-          href="https://www.emc89.com/"
+          href="https://www.yyb197.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          &nbsp;https://www.emc89.com/
+          &nbsp;EMC Store
         </a>
         <div className="coming-soon-div">
           <button className="demo-btn">
