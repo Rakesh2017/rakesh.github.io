@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83bb8c52e7d93d6bda6ab50ed75e3db9",
+    "revision": "66dc02efb17129a5c794e6480eed19d4",
     "url": "/rakesh.github.io/index.html"
   },
   {
-    "revision": "30342eff117b50bde241",
+    "revision": "293b3db9677cd09fc2a1",
     "url": "/rakesh.github.io/static/css/main.3835328c.chunk.css"
   },
   {
-    "revision": "bc50d45a28e90162232b",
-    "url": "/rakesh.github.io/static/js/2.941f9cf7.chunk.js"
+    "revision": "dfb785a66d43d6f3974e",
+    "url": "/rakesh.github.io/static/js/2.4b93689d.chunk.js"
   },
   {
     "revision": "8cf278a1a0563202cd02de54ef2ff4ee",
-    "url": "/rakesh.github.io/static/js/2.941f9cf7.chunk.js.LICENSE.txt"
+    "url": "/rakesh.github.io/static/js/2.4b93689d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30342eff117b50bde241",
-    "url": "/rakesh.github.io/static/js/main.9c383ae2.chunk.js"
+    "revision": "293b3db9677cd09fc2a1",
+    "url": "/rakesh.github.io/static/js/main.71b124f7.chunk.js"
   },
   {
     "revision": "13b8aa9d2a2bf4ceba83",
     "url": "/rakesh.github.io/static/js/runtime-main.de59a90b.js"
+  },
+  {
+    "revision": "79d5d8179556f9a105d0e34821347487",
+    "url": "/rakesh.github.io/static/media/accolade.79d5d817.png"
   },
   {
     "revision": "6b6c272c6beb63873e2996693bd4c307",
