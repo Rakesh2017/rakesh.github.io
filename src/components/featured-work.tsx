@@ -7,6 +7,7 @@ import HappyFridge from "../components/happy-fridge";
 import EMC from "./emc";
 import Tablo from "./tablo";
 import Miinga from "./miinga";
+import Accolade from "./accolade";
 
 const FeaturedWork = () => {
   return (
@@ -14,6 +15,8 @@ const FeaturedWork = () => {
       <div className="featured-work-title-con">
         <h4 className="featured-work-h3">Featured Work</h4>
       </div>
+      <Accolade />
+      <hr className="divider-hr" />
       <Tablo />
       <hr className="divider-hr" />
       <EMC />
