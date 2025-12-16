@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Rakesh2017/rakesh.github.io",
+  "homepage": "https://rakesh2017.github.io/rakesh.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
+    "@types/react": "^16.9.0", 
     "@types/react-dom": "^16.9.0",
     "firebase": "^10.12.5",
     "react": "^16.13.1",
