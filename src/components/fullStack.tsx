@@ -21,6 +21,8 @@ import bitrise from "../images/logos/bitrise.png";
 import azure from "../images/logos/azure.jpeg";
 import fastlane from "../images/logos/fastlane.png";
 import circleci from "../images/logos/circleci.svg";
+import flutter from "../images/logos/flutter.png";
+import dart from "../images/logos/dart.png";
 
 const FullStack = () => {
   return (
@@ -40,6 +42,10 @@ const FullStack = () => {
                 <p className="language-p">Native Android</p>
               </div>
               <div className="tech-con">
+                <img src={flutter} alt="" />
+                <p className="language-p">Flutter</p>
+              </div>
+              <div className="tech-con">
                 <img src={reactJS} alt="" />
                 <p className="language-p">React Native</p>
               </div>
@@ -57,6 +63,10 @@ const FullStack = () => {
               <div className="tech-con">
                 <img src={java} alt="" />
                 <p className="language-p">Java</p>
+              </div>
+               <div className="tech-con">
+                <img src={dart} alt="" />
+                <p className="language-p">Dart</p>
               </div>
               <div className="tech-con">
                 <img src={reactJS} alt="React" />
