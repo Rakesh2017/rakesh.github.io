@@ -6,6 +6,7 @@ const WorkExperience = () => {
   const inter_dev = "Intermediate Android Developer";
   const dev = "Android Developer";
   const freelancer = "Senior Android Developer";
+  const software_engineer = "Software Engineer [Android + Flutter]";
   return (
     <div className="work-exp-con" id="work-experience">
       <div>
@@ -15,10 +16,15 @@ const WorkExperience = () => {
         {/* <div id="line1" className="horizontal-line" /> */}
         {/* <div id="line2" className="horizontal-line" /> */}
         <div className='exp-content-con'>
+          <ExpTemplate
+            company={"Software Engineer"}
+            designation={software_engineer}
+            date={"Feb 2025 - current"}
+          />
         <ExpTemplate
             company={"Freelancing"}
             designation={freelancer}
-            date={"Apr 2024 - Current"}
+            date={"Apr 2024 - May 2025"}
           />
           <ExpTemplate
             company={"Iversoft Solutions"}

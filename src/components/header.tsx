@@ -25,7 +25,7 @@ const Header: React.FC<ChildProps> = ({scaleValue}) => {
               Senior Mobile<br/> Application developer<br/> 
               {/* <span>developer</span> */}
             </h1>
-            <span className="designation-p">(Android Native & React Native)</span>
+            <span className="designation-p">(Android Native, Flutter & React Native)</span>
           </div>
           <br/>
           {/* name */}
